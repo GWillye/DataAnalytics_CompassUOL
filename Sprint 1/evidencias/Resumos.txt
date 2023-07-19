@@ -1,5 +1,1 @@
-Link do resumo do curso de Git e GitHub: https://www.notion.so/gabrielwillye/Comandos-Git-7f64ad1cb110467bb12d9ffc79396d9a
-
-Link do resumo do curso de Metodologia Ágil: https://www.notion.so/gabrielwillye/Curso-de-Metodologias-geis-45da3933fdcd43d79e5915fc6fb57228
-
-Link do resumo do curso de Linux: https://www.notion.so/gabrielwillye/Comandos-Linux-1f45ebb40fdc47b49a16f798aa6bfd04
+Link para a página no Notion com os resumos: https://www.notion.so/gabrielwillye/invite/543089e86a9be2f966c34b6932dc08f6c98617c8
