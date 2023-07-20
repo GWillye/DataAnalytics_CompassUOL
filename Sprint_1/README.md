@@ -27,11 +27,11 @@ Desenvolvi um resumo sobre o estudado em cada curso e os deixei privados em um b
 ## Certificados
 
 ### Certificado do curso de Git:
-![Git](certificados/Git.jng);
+[Git](certificados/Git.jng);
 
 ### Certificado do curso de Linux:
-![Linux](certificados/Linux.jng);
+[Linux](certificados/Linux.jng);
 
 ### Certificado do curso de Metodologia Agil:
-![Metodologia Agil](certificados/MetodologiaAgil.jng);
+[Metodologia Agil](certificados/MetodologiaAgil.jng);
 
