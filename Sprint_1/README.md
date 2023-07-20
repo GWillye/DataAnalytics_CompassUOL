@@ -1,42 +1,32 @@
 
 # Apresentações da Sprint 1
 
-
-
- - O diretório **exercícios** corresponde ao local onde você irá adicionar o código-fonte das atividades de codificação da Sprint, quando houver.
- - O diretório **evidências** você pode utilizar para adicionar imagens demonstrando a execução/resultados de atividades, quando necessário.
- - O diretório **certificados** é o local onde você irá armazenar os certificados dos cursos solicitados durante a sprint. O nome de cada certificado de corresponder ao título do curso.
-
-Utilize o arquivo README.md da Sprint para organizar todas as suas entregas. Faça referência aos arquivos de código-fonte. Evite colocar código diretamente no Markdown pois dificulta nossa avaliação.
-
+Durante esta primeira sprint, foram concluídos os cursos solicitados e também o curso "Metodologia Ágil de A a Z".
 
 # Exercícios
 
 
+No final do curso de Linux, nos é apresentado um projeto LAMP, para a instalação no Linux do Apache, MySQL e PHP, ensinando também a instalação do Sublime. O projeto finalizava com dois códigos para exibir os dados das tabelas do MySQL no localhost/index.php . Os dois códigos do conn.php e do index.php estão exibidos nos prints e também estão nos arquivos na pasta **exercicios**.
+
 1. ...
-[Resposta Ex1.](exercicios/ex1.txt)
+[Resposta Ex1.](exercicios/linux1.png)
+[Resposta Ex1.](exercicios/linux2.png)
+[Resposta Ex1.](exercicios/index.php)
+[Resposta Ex1.](exercicios/conn.php)
 
-
-2. ...
-[Resposta Ex2.](exercicios/ex2.txt)
-
-
+2. Alguns exemplos de comandos utilizados para subir o repositório utilizando comandos Git
+[Resposta Ex2.](exercicios/Git.png)
 
 
 # Evidências
 
+Desenvolvi um resumo sobre o estudado em cada curso e os deixei privados em um bloco de notas no Notion.so. No arquivo "Resumos.txt" está anexado o link, e o link está novamente aqui: https://www.notion.so/gabrielwillye/invite/543089e86a9be2f966c34b6932dc08f6c98617c8
 
-Ao executar o código do exercício ... observei que ... conforme podemos ver na imagem a seguir:
-
-
-![Evidencia 1](evidencias/sample.webp)
-
-
+![Evidencia 1](evidencias/Resumos.txt)
 
 # Certificados
 
-
-- Certificado do Curso ABC
-![Curso ABC](certificados/sample.png)
-
+! [Linux] (certificados/Linux.jpg)
+! [Git_e_GitHub] (certificados/Git.jpg)
+! [MetodologiaAgil] (certificados.MetodologiaAgil.jpg)
 
