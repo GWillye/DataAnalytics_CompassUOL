@@ -16,6 +16,9 @@ Durante esta primeira sprint, foram concluídos os cursos solicitados e também 
    
       [Comandos Git](exercicios/Git.png)
 
+3. Portólio criado no projeto do curso de Git:
+
+    [Portfolio Curso Git](exercicios/portfolio.png)
 
 ## Evidências
 
