@@ -9,7 +9,7 @@ Durante esta primeira sprint, foram concluídos os cursos solicitados e também 
    
     [Print 1](exercicios/linux1.png)   
     [Print 2](exercicios/linux2.png)    
-    [index.php](exercicios/index.php)
+    [index.php](exercicios/index.php)        
     [conn.php](exercicios/conn.php)
 
 3. Alguns exemplos de comandos utilizados para subir o repositório utilizando comandos Git, sendo exibidos pelo comando history:
