@@ -26,9 +26,9 @@ Desenvolvi um resumo sobre o estudado em cada curso e os deixei privados em um b
 
 ## Certificados
 
-### [Certificado do curso de Git](certificados/Git.jng);
+### [Certificado do curso de Git](certificados/Git.jpg);
 
-### [Certificado do curso de Linux](certificados/Linux.jng);
+### [Certificado do curso de Linux](certificados/Linux.jpg);
 
-### [Certificado do curso de Metodologia Agil](certificados/MetodologiaAgil.jng);
+### [Certificado do curso de Metodologia Agil](certificados/MetodologiaAgil.jpg);
 
