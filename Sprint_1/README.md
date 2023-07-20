@@ -26,7 +26,7 @@ Desenvolvi um resumo sobre o estudado em cada curso e os deixei privados em um b
 
 # Certificados
 
-! [Linux] (certificados/Linux.jpg)
-! [Git_e_GitHub] (certificados/Git.jpg)
-! [MetodologiaAgil] (certificados.MetodologiaAgil.jpg)
+[Git](certificados/Git.jng)
+[Linux](certificados/Linux.jng)
+[Metodologia Agil](certificados/MetodologiaAgil.jng)
 
