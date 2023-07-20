@@ -5,16 +5,15 @@ Durante esta primeira sprint, foram concluídos os cursos solicitados e também 
 
 # Exercícios
 
-
-No final do curso de Linux, nos é apresentado um projeto LAMP, para a instalação no Linux do Apache, MySQL e PHP, ensinando também a instalação do Sublime. O projeto finalizava com dois códigos para exibir os dados das tabelas do MySQL no localhost/index.php . Os dois códigos do conn.php e do index.php estão exibidos nos prints e também estão nos arquivos na pasta **exercicios**.
-
-1. ...
+1. No final do curso de Linux, nos é apresentado um projeto LAMP, para a instalação no Linux do Apache, MySQL e PHP, ensinando também a instalação do Sublime. O projeto finalizava com dois códigos para exibir os dados das tabelas do MySQL no localhost/index.php.
+   
 [Print 1](exercicios/linux1.png)
 [Print 2](exercicios/linux2.png)
 [index.php](exercicios/index.php)
 [conn.php](exercicios/conn.php)
 
-2. Alguns exemplos de comandos utilizados para subir o repositório utilizando comandos Git, sendo exibidos pelo comando history
+2. Alguns exemplos de comandos utilizados para subir o repositório utilizando comandos Git, sendo exibidos pelo comando history:
+   
 [Comandos Git](exercicios/Git.png)
 
 
