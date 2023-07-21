@@ -27,12 +27,12 @@ No final do curso de Linux é apresentado um projeto chamado LAMP, para a instal
 [index.php](index.php)
 
 Alguns exemplos de comandos utilizados para subir o repositório utilizando comandos Git, sendo exibidos pelo comando history:
-   
-      [Comandos Git](exercicios/Git.png)
+
+   [Comandos Git](evidencias.png)
 
 Portólio criado no projeto do curso de Git:
 
-    [Portfolio Curso Git](exercicios/PrintPortfolio.png)
+   [Portfolio do Curso de Git](evidencias/PrintPortfolio.png)
 
 ## Certificados
 
