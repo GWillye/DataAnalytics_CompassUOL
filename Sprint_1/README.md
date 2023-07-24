@@ -1,5 +1,5 @@
 
-# Sprint 1 - Versionamento de Código e Sistema Operacional Linux
+# Sprint 1 - Markdown, Git e Linux
 
 Ser ágil faz parte da cultura da Compass, mas afinal, o que é ser ágil? Esta primeira seção da trilha foi reservada para descobrir, estudar e compreender alguns conceitos que giram em torno disso. Uma das tecnologias mais essenciais para manter as coisas em ordem, e que é essencial para o sucesso de projetos que envolvem codificação, é o versionamento de código. E, quando se estuda versionamento, muitos dos comandos utilizados são baseados no Sistema Operacional Linux. Assim sendo, nesta primeira sprint, foram estudados sobre o que são e como funcionam Metodologias Ágeis, o que é versionamento de código e como o utilizar através do Git, assim como o sistema operacional Linux, seus principais comandos e configurações.
 
