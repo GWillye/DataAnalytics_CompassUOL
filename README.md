@@ -22,7 +22,7 @@ O restante do meu tempo livre eu normalmente passo envolvido com atividades de m
 Eu era muito ansioso e agitado quando criança (ainda sou um pouco), então as pessoas achavam que eu tinha TDAH, até minha pediatra me encaminhar para acompanhamento psicológico e descobrirem que eu era precoce, possivelmente superdotado. O motivo pra isso é que ela achou que eu não era normal por ser uma criança de 8 anos que lia um livro de 500 páginas em uma tarde tranquilamente.
 Por gostar muito de ler, comecei a usar óculos cedo também, visto que eu forçava minha vista para ler no escuro e lia livros dentro do ônibus. Como mencionado anteriormente, eu era muito agitado, então quando não estava lendo, provavelmente estava fazendo arte. Quebrei meu braço com 3 anos, com 6 anos, com 9 anos, com 12 quebrei o pé, e então quebrei a sequência aos 13 quebrando o braço. Depois disso diminuí com as gracinhas, e sigo (quase) inteiro.
 
-# Sprint 1 - Versionamento de Código e Sistema Operacional Linux
+# Sprint 1 - Markdown, Git e Linux
 
 Ser ágil faz parte da cultura da Compass, mas afinal, o que é ser ágil? Esta primeira seção da trilha foi reservada para descobrir, estudar e compreender alguns conceitos que giram em torno disso. Uma das tecnologias mais essenciais para manter as coisas em ordem, e que é essencial para o sucesso de projetos que envolvem codificação, é o versionamento de código. E, quando se estuda versionamento, muitos dos comandos utilizados são baseados no Sistema Operacional Linux. Assim sendo, nesta primeira sprint, foram estudados sobre o que são e como funcionam Metodologias Ágeis, o que é versionamento de código e como o utilizar através do Git, assim como o sistema operacional Linux, seus principais comandos e configurações.
 
@@ -65,21 +65,21 @@ Portólio criado no projeto do curso de Git:
 
 ![Certificado do curso de Metodologia Agil](Sprint_1/certificados/MetodologiaAgil.jpg)
 
-## Sprint 2 - Big Data e SQL
+## Sprint 2 - Linguagem SQL e conceitos básicos da área de Dados
 ### em breve...
-## Sprint 3 - Fundamentos em Python
+## Sprint 3 - Python
 ### em breve...
-## Sprint 4 - Programação Funcional e Dockers
+## Sprint 4 - Paradigma Funcional(Python) e Containers
 ### em breve...
-## Sprint 5 - Preparo para a certificação AWS
+## Sprint 5 - Fundamentos de Computação em Nuvem (AWS)
 ### em breve...
-## Sprint 6 - Data Analytics da AWS
+## Sprint 6 - Serviços Analíticos (AWS)
 ### em breve...
-## Sprint 7 - Apache Spark
+## Sprint 7 - Plataformas Big Data (Spark, Hadoop)
 ### em breve...
-## Sprint 8 -  Utilização do Apache Spark com AWS
+## Sprint 8 -  Apache Spark
 ### em breve...
-## Sprint 9 - Estruturas de dados
+## Sprint 9 - Apache Spark
 ### em breve...
-## Sprint 10 - Visualização de dados
+## Sprint 10 - Visualização de Dados
 ### em breve...
