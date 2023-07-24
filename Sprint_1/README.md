@@ -42,7 +42,7 @@ Portólio criado no projeto do curso de Git:
 
 ![Certificado do curso de Metodologia Agil](certificados/MetodologiaAgil.jpg)
 
-# D&A - AWS [Compass.uol](https://compass.uol/pt/home/?utm_source=google-ads&utm_medium=ppc&utm_campaign=compasso-uol-institucional&utm_term=compass+uol)
+# D&A - AWS [Compass.UOL](https://compass.uol/pt/home/?utm_source=google-ads&utm_medium=ppc&utm_campaign=compasso-uol-institucional&utm_term=compass+uol)
 
 # Olá, meu nome é Gabriel WIllye
 
