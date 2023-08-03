@@ -58,7 +58,7 @@ Sou animado e extrovertido, fazendo meus projetos e tarefas com muita animação
 
 ## Hobbies
 
-Meus hobbies principais giram em torno de ouvir músicas (tenho algumas playlists em meu [YouTube](https://www.youtube.com/@gabrielwillye/playlists), mas não as atualizo já faz uns meses), ler livros e estudar conteúdos que não são diretamente relacionados com minha carreira, como filosofia, sociologia, psicologia, teologia e história. Estou estudando inglês e pretendo também aprender russo.
+Meus hobbies principais giram em torno de ouvir músicas (minha playlist no [Spotify](https://open.spotify.com/playlist/60y6pGtZ0K207UEY6QipqZ?si=4da97c4284724c35)), ler livros e estudar conteúdos que não são diretamente relacionados com minha carreira, como filosofia, sociologia, psicologia, teologia e história. Estou estudando inglês e pretendo também aprender russo.
 O restante do meu tempo livre eu normalmente passo envolvido com atividades de minha igreja (sou Adventista do Sétimo Dia), como professor da Escola Sabatina, Sonoplastia e Comunicação, e também instrutor no Clube de Desbravadores de uma classe com crianças de 13 anos. 
 
 ## Fatos engraçados sobre mim:

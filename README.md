@@ -14,7 +14,7 @@ Sou animado e extrovertido, fazendo meus projetos e tarefas com muita animação
 
 ## Hobbies
 
-Meus hobbies principais giram em torno de ouvir músicas (tenho algumas playlists em meu [YouTube](https://www.youtube.com/@gabrielwillye/playlists), mas não as atualizo já faz uns meses), ler livros e estudar conteúdos que não são diretamente relacionados com minha carreira, como filosofia, sociologia, psicologia, teologia e história. Estou estudando inglês e pretendo também aprender russo.
+Meus hobbies principais giram em torno de ouvir músicas (minha playlist no [Spotify](https://open.spotify.com/playlist/60y6pGtZ0K207UEY6QipqZ?si=4da97c4284724c35)), ler livros e estudar conteúdos que não são diretamente relacionados com minha carreira, como filosofia, sociologia, psicologia, teologia e história. Estou estudando inglês e pretendo também aprender russo.
 O restante do meu tempo livre eu normalmente passo envolvido com atividades de minha igreja (sou Adventista do Sétimo Dia), como professor da Escola Sabatina, Sonoplastia e Comunicação, e também instrutor no Clube de Desbravadores de uma classe com crianças de 13 anos. 
 
 ## Fatos engraçados sobre mim:
@@ -66,7 +66,65 @@ Portólio criado no projeto do curso de Git:
 ![Certificado do curso de Metodologia Agil](Sprint_1/certificados/MetodologiaAgil.jpg)
 
 ## Sprint 2 - Linguagem SQL e conceitos básicos da área de Dados
-### em breve...
+
+# Sprint 2 - Linguagem SQL e conceitos básicos da área de Dados
+
+Dados são, por muitos, considerados como o recurso mais valioso de nosso século. A cada segundo, uma quantidade absurda de dados é produzida, fazendo com que sejam necessários utilizar formas de controlar, acessar e utilizar estes dados de uma maneira prática e realista. Nesa sprint, foram estudados conceitos sobre Big Data e como este grandioso volume de dados, que são partes do nosso dia-a-dia, funcionam, assim como fazer análises e tratamentos de dados quando consideramos bancos de dados relacionais, que operam com um volume de dados  relativamente menor que o estudado no curso de Big Data.
+
+## Exercícios
+
+### Caso de Estudo "Biblioteca"
+[Exercício 1](exercicios/ex1.sql)
+
+[Exercício 2](exercicios/ex2.sql)
+
+[Exercício 3](exercicios/ex3.sql)
+
+[Exercício 4](exercicios/ex4.sql)
+
+[Exercício 5](exercicios/ex5.sql)
+
+[Exercício 6](exercicios/ex6.sql)
+
+[Exercício 7](exercicios/ex7.sql)
+
+### Caso de Estudo "Loja"
+[Exercício 8](exercicios/ex8.sql)
+
+[Exercício 9](exercicios/ex9.sql)
+
+[Exercício 10](exercicios/ex10.sql)
+
+[Exercício 11](exercicios/ex11.sql)
+
+[Exercício 12](exercicios/ex12.sql)
+
+[Exercício 13](exercicios/ex13.sql)
+
+[Exercício 14](exercicios/ex14.sql)
+
+[Exercício 15](exercicios/ex15.sql)
+
+[Exercício 16](exercicios/ex16.sql)
+
+### Exportação de Dados
+[Exportação de Dados 1](exercicios/exportacao1.csv)
+
+[Exportação de Dados 2](exercicios/exportacao2.csv)
+
+
+## Evidências
+
+Foram desenvolvidos resumos sobre o estudado em cada curso, e estão disponíveis para acesso em Notion.so. No arquivo "Resumos.txt" está anexado o link, e os links  dos resumos dos cursos estão disponíveis aqui também:
+* [Resumo do curso de SQL para Análise de Dados](https://gabrielwillye.notion.site/SQL-para-An-lise-de-Dados-c3292e791c4c422a85b7be54c7c4f1b6?pvs=4) 
+* [Resumo do curso de Big Data](https://gabrielwillye.notion.site/Fundamentos-de-Big-Data-79a06f2c95214628a5e1a884cb6ce161?pvs=4)
+
+## Certificados
+
+![Certificado do curso de SQL para Análise de Dados](certificados/SQL.jpg)
+
+![Certificado do curso de Fundamentos em Big Data](certificados/BigData.jpg)
+
 ## Sprint 3 - Python
 ### em breve...
 ## Sprint 4 - Paradigma Funcional(Python) e Containers
