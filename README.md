@@ -67,8 +67,6 @@ Portólio criado no projeto do curso de Git:
 
 ## Sprint 2 - Linguagem SQL e conceitos básicos da área de Dados
 
-# Sprint 2 - Linguagem SQL e conceitos básicos da área de Dados
-
 Dados são, por muitos, considerados como o recurso mais valioso de nosso século. A cada segundo, uma quantidade absurda de dados é produzida, fazendo com que sejam necessários utilizar formas de controlar, acessar e utilizar estes dados de uma maneira prática e realista. Nesa sprint, foram estudados conceitos sobre Big Data e como este grandioso volume de dados, que são partes do nosso dia-a-dia, funcionam, assim como fazer análises e tratamentos de dados quando consideramos bancos de dados relacionais, que operam com um volume de dados  relativamente menor que o estudado no curso de Big Data.
 
 ## Exercícios
@@ -121,9 +119,9 @@ Foram desenvolvidos resumos sobre o estudado em cada curso, e estão disponívei
 
 ## Certificados
 
-![Certificado do curso de SQL para Análise de Dados](certificados/SQL.jpg)
+![Certificado do curso de SQL para Análise de Dados](certificados/../Sprint_2/certificados/SQL.jpg)
 
-![Certificado do curso de Fundamentos em Big Data](certificados/BigData.jpg)
+![Certificado do curso de Fundamentos em Big Data](certificados/../Sprint_2/certificados/BigData.jpg)
 
 ## Sprint 3 - Python
 ### em breve...
