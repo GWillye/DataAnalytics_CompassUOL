@@ -121,7 +121,7 @@ Foram desenvolvidos resumos sobre o estudado em cada curso, e estão disponívei
 
 ![Certificado do curso de SQL para Análise de Dados](certificados/../Sprint_2/certificados/SQL.jpg)
 
-![Certificado do curso de Fundamentos em Big Data](certificados/../Sprint_2/certificados/BigData.jpg)
+![Certificado do curso de Fundamentos em Big Data](certificados/../Sprint_2/certificados/BigData.png)
 
 ## Sprint 3 - Python
 ### em breve...
