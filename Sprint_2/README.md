@@ -54,7 +54,7 @@ Foram desenvolvidos resumos sobre o estudado em cada curso, e estão disponívei
 
 ![Certificado do curso de SQL para Análise de Dados](certificados/SQL.jpg)
 
-![Certificado do curso de Fundamentos em Big Data](certificados/BigData.jpg)
+![Certificado do curso de Fundamentos em Big Data](certificados/BigData.png)
 
 # D&A - AWS [Compass.UOL](https://compass.uol/pt/home/?utm_source=google-ads&utm_medium=ppc&utm_campaign=compasso-uol-institucional&utm_term=compass+uol)
 
