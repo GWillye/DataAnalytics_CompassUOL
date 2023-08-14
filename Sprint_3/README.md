@@ -1,42 +1,99 @@
+# Sprint 3 - Python
 
-# Instruções
+Uma das linguagens mais populares da atualidade e que possui uma ampla utilidade em projetos de dados, dominar o Python é essencial para quem segue carreira em Data Science. Nesta sprint, foi estudado de maneira intensiva a respeito de o que é o Python, como funciona, suas características e como utilizar suas ferramentas e recursos na carreira de Data & Analytics.
 
-Neste arquivo você irá apresentar suas entregas da Sprint corrente. Observe que existem 4 diretórios no exemplo: **exercícios**, **certificados** e **evidências**.
+## Exercícios
 
- - O diretório **exercícios** corresponde ao local onde você irá adicionar o código-fonte das atividades de codificação da Sprint, quando houver.
- - O diretório **evidências** você pode utilizar para adicionar imagens demonstrando a execução/resultados de atividades, quando necessário.
- - O diretório **certificados** é o local onde você irá armazenar os certificados dos cursos solicitados durante a sprint. O nome de cada certificado de corresponder ao título do curso.
+### Python I - 1/2
+[Exercício 1](exercicios/ex1.py)
 
-Utilize o arquivo README.md da Sprint para organizar todas as suas entregas. Faça referência aos arquivos de código-fonte. Evite colocar código diretamente no Markdown pois dificulta nossa avaliação.
+[Exercício 2](exercicios/ex2.py)
 
+[Exercício 3](exercicios/ex3.py)
 
-# Exercícios
+[Exercício 4](exercicios/ex4.py)
 
+[Exercício 5](exercicios/ex5.py)
 
-1. ...
-[Resposta Ex1.](exercicios/ex1.txt)
+### Python 1 - 2/2
 
+[Exercício 6](exercicios/ex6.py)
 
-2. ...
-[Resposta Ex2.](exercicios/ex2.txt)
+[Exercício 7](exercicios/ex7.py)
 
+[Exercício 8](exercicios/ex8.py)
 
+[Exercício 9](exercicios/ex9.py)
 
+[Exercício 10](exercicios/ex10.py)
 
-# Evidências
+[Exercício 11](exercicios/ex11.py)
 
+[Exercício 12](exercicios/ex12.py)
 
-Ao executar o código do exercício ... observei que ... conforme podemos ver na imagem a seguir:
+[Exercício 13](exercicios/ex13.py)
 
+[Exercício 14](exercicios/ex14.py)
 
-![Evidencia 1](evidencias/sample.webp)
+[Exercício 15](exercicios/ex15.py)
 
+[Exercício 16](exercicios/ex16.py)
 
+[Exercício 17](exercicios/ex17.py)
 
-# Certificados
+[Exercício 18](exercicios/ex18.py)
 
+[Exercício 19](exercicios/ex19.py)
 
-- Certificado do Curso ABC
-![Curso ABC](certificados/sample.png)
+[Exercício 20](exercicios/ex20.py)
 
+### Python II - 1/2
 
+[Exercício 21](exercicios/ex21.py)
+
+[Exercício 22](exercicios/ex22.py)
+
+[Exercício 23](exercicios/ex23.py)
+
+[Exercício 24](exercicios/ex24.py)
+
+[Exercício 25](exercicios/ex25.py)
+
+### Python II - 2/2
+
+[Desafio - ETL com Python](exercicios/desafio.py)
+
+## Evidências
+
+Foi desenvolvido um caderno de códigos com alguns desafios propostos em aula:
+* [Caderno de Códigos](evidencias/Notas%20Do%20Curso.ipynb)
+
+## Certificados
+
+Como o curso de Python se encerra na próxima sprint, ao invés do certificado, foi disponibilizado para comprovar o cumprimento do curso prints com as partes concluídas do curso.
+[Print1](certificados/print1.png)
+[Print2](certificados/print2.png)
+
+# D&A - AWS [Compass.UOL](https://compass.uol/pt/home/?utm_source=google-ads&utm_medium=ppc&utm_campaign=compasso-uol-institucional&utm_term=compass+uol)
+
+# Olá, meu nome é Gabriel WIllye
+
+#### 🏡Cidade: [Campo Grande/MS](https://www.google.com.br/maps/place/Campo+Grande,+MS/@-20.6258611,-54.8465322,10z/data=!3m1!4b1!4m6!3m5!1s0x9486f3f8b2834447:0xa35a7db8b968e5fd!8m2!3d-20.6281521!4d-54.5218074!16s%2Fg%2F11rgdh3sd7?entry=ttu)
+#### 🏫Instituição de ensino: [Universidade Federal de Mato Grosso do Sul (UFMS)](https://www.ufms.br/)
+#### 👨‍🎓Curso e semestre atual: Sistemas de Informação - quarto semestre
+
+## Experiências na área de tecnologia:
+
+Estou no momento em meu primeiro emprego formal na área de Tecnologia, como estagiário da Compass UOL.
+
+Sou animado e extrovertido, fazendo meus projetos e tarefas com muita animação e dedicação. Gosto de ensinar e de coordenar tarefas, me dando muito bem em tarefas com gestão e colaboração entre pessoas. Sou dedicado e amo trabalhos em que posso discorrer, fazer apresentações e demonstrar meus conhecimentos. Acima de tudo, gosto de aprender e ensinar, e acredito que tenho muitas possibilidades para isso ao longo de minha jornada.
+
+## Hobbies
+
+Meus hobbies principais giram em torno de ouvir músicas (minha playlist no [Spotify](https://open.spotify.com/playlist/60y6pGtZ0K207UEY6QipqZ?si=4da97c4284724c35)), ler livros e estudar conteúdos que não são diretamente relacionados com minha carreira, como filosofia, sociologia, psicologia, teologia e história. Estou estudando inglês e pretendo também aprender russo.
+O restante do meu tempo livre eu normalmente passo envolvido com atividades de minha igreja (sou Adventista do Sétimo Dia), como professor da Escola Sabatina, Sonoplastia e Comunicação, e também instrutor no Clube de Desbravadores de uma classe com crianças de 13 anos. 
+
+## Fatos engraçados sobre mim:
+
+Eu era muito ansioso e agitado quando criança (ainda sou um pouco), então as pessoas achavam que eu tinha TDAH, até minha pediatra me encaminhar para acompanhamento psicológico e descobrirem que eu era precoce, possivelmente superdotado. O motivo pra isso é que ela achou que eu não era normal por ser uma criança de 8 anos que lia um livro de 500 páginas em uma tarde tranquilamente.
+Por gostar muito de ler, comecei a usar óculos cedo também, visto que eu forçava minha vista para ler no escuro e lia livros dentro do ônibus. Como mencionado anteriormente, eu era muito agitado, então quando não estava lendo, provavelmente estava fazendo arte. Quebrei meu braço com 3 anos, com 6 anos, com 9 anos, com 12 quebrei o pé, e então quebrei a sequência aos 13 quebrando o braço. Depois disso diminuí com as gracinhas, e sigo (quase) inteiro.

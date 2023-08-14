@@ -65,7 +65,7 @@ Portólio criado no projeto do curso de Git:
 
 ![Certificado do curso de Metodologia Agil](Sprint_1/certificados/MetodologiaAgil.jpg)
 
-## Sprint 2 - Linguagem SQL e conceitos básicos da área de Dados
+# Sprint 2 - Linguagem SQL e conceitos básicos da área de Dados
 
 Dados são, por muitos, considerados como o recurso mais valioso de nosso século. A cada segundo, uma quantidade absurda de dados é produzida, fazendo com que sejam necessários utilizar formas de controlar, acessar e utilizar estes dados de uma maneira prática e realista. Nesa sprint, foram estudados conceitos sobre Big Data e como este grandioso volume de dados, que são partes do nosso dia-a-dia, funcionam, assim como fazer análises e tratamentos de dados quando consideramos bancos de dados relacionais, que operam com um volume de dados  relativamente menor que o estudado no curso de Big Data.
 
@@ -123,19 +123,94 @@ Foram desenvolvidos resumos sobre o estudado em cada curso, e estão disponívei
 
 ![Certificado do curso de Fundamentos em Big Data](certificados/../Sprint_2/certificados/BigData.png)
 
-## Sprint 3 - Python
-### em breve...
-## Sprint 4 - Paradigma Funcional(Python) e Containers
-### em breve...
-## Sprint 5 - Fundamentos de Computação em Nuvem (AWS)
-### em breve...
-## Sprint 6 - Serviços Analíticos (AWS)
-### em breve...
-## Sprint 7 - Plataformas Big Data (Spark, Hadoop)
-### em breve...
-## Sprint 8 -  Apache Spark
-### em breve...
-## Sprint 9 - Apache Spark
-### em breve...
-## Sprint 10 - Visualização de Dados
-### em breve...
+# Sprint 3 - Python
+
+Uma das linguagens mais populares da atualidade e que possui uma ampla utilidade em projetos de dados, dominar o Python é essencial para quem segue carreira em Data Science. Nesta sprint, foi estudado de maneira intensiva a respeito de o que é o Python, como funciona, suas características e como utilizar suas ferramentas e recursos na carreira de Data & Analytics.
+
+## Exercícios
+
+### Python I - 1/2
+[Exercício 1](exercicios/ex1.py)
+
+[Exercício 2](exercicios/ex2.py)
+
+[Exercício 3](exercicios/ex3.py)
+
+[Exercício 4](exercicios/ex4.py)
+
+[Exercício 5](exercicios/ex5.py)
+
+### Python 1 - 2/2
+
+[Exercício 6](exercicios/ex6.py)
+
+[Exercício 7](exercicios/ex7.py)
+
+[Exercício 8](exercicios/ex8.py)
+
+[Exercício 9](exercicios/ex9.py)
+
+[Exercício 10](exercicios/ex10.py)
+
+[Exercício 11](exercicios/ex11.py)
+
+[Exercício 12](exercicios/ex12.py)
+
+[Exercício 13](exercicios/ex13.py)
+
+[Exercício 14](exercicios/ex14.py)
+
+[Exercício 15](exercicios/ex15.py)
+
+[Exercício 16](exercicios/ex16.py)
+
+[Exercício 17](exercicios/ex17.py)
+
+[Exercício 18](exercicios/ex18.py)
+
+[Exercício 19](exercicios/ex19.py)
+
+[Exercício 20](exercicios/ex20.py)
+
+### Python II - 1/2
+
+[Exercício 21](exercicios/ex21.py)
+
+[Exercício 22](exercicios/ex22.py)
+
+[Exercício 23](exercicios/ex23.py)
+
+[Exercício 24](exercicios/ex24.py)
+
+[Exercício 25](exercicios/ex25.py)
+
+### Python II - 2/2
+
+[Desafio - ETL com Python](exercicios/desafio.py)
+
+## Evidências
+
+Foi desenvolvido um caderno de códigos com alguns desafios propostos em aula:
+* [Caderno de Códigos](evidencias/Notas%20Do%20Curso.ipynb)
+
+## Certificados
+
+Como o curso de Python se encerra na próxima sprint, ao invés do certificado, foi disponibilizado para comprovar o cumprimento do curso prints com as partes concluídas do curso.
+
+[Print1](certificados/print1.png)
+
+[Print2](certificados/print2.png)
+# Sprint 4 - Paradigma Funcional(Python) e Containers
+## em breve...
+# Sprint 5 - Fundamentos de Computação em Nuvem (AWS)
+## em breve...
+# Sprint 6 - Serviços Analíticos (AWS)
+## em breve...
+# Sprint 7 - Plataformas Big Data (Spark, Hadoop)
+## em breve...
+# Sprint 8 -  Apache Spark
+## em breve...
+# Sprint 9 - Apache Spark
+## em breve...
+# Sprint 10 - Visualização de Dados
+## em breve...
