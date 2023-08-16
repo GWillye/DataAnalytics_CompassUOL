@@ -78,7 +78,7 @@ Foi desenvolvido um caderno de códigos com alguns desafios propostos em aula. A
 
 ## Certificados
 
-![Certificado do curso de Python3](certificados/../Sprint_3/certificados/Python3.jpg)
+![Certificado do curso de Python3](Sprint/../certificados/Python3.jpg)
 
 # D&A - AWS [Compass.UOL](https://compass.uol/pt/home/?utm_source=google-ads&utm_medium=ppc&utm_campaign=compasso-uol-institucional&utm_term=compass+uol)
 
