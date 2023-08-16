@@ -30,10 +30,10 @@ Nesta sprint, conceitos de Metodologia Ágil, Gerência de Projetos, SCRUM, Kanb
 
 ## Exercícios
 
-[Exercício 1](exercicios/ex1.md)  
-[Exercicio 2](exercicios/ex2.md)  
-[Exercicio 3](exercicios/ex3.md)  
-[Exercicio 4](exercicios/ex4.md)
+[Exercício 1](Sprint_1/exercicios/ex1.md)  
+[Exercicio 2](Sprint_1/exercicios/ex2.md)  
+[Exercicio 3](Sprint_1/exercicios/ex3.md)  
+[Exercicio 4](Sprint_1/exercicios/ex4.md)
 
 
 ## Evidências
@@ -45,17 +45,17 @@ Foram desenvolvidos resumos sobre o estudado em cada curso, e estão disponívei
 
 No final do curso de Linux é apresentado um projeto chamado LAMP, para a instalação no Linux do Apache, MySQL e PHP, ensinando também a instalação do Sublime. O projeto finalizava com dois códigos para exibir os dados das tabelas do MySQL no localhost/index.php.
 
-[conn.php](evidencias/conn.php)
+[conn.php](Sprint_1/evidencias/conn.php)
 
-[index.php](index.php)
+[index.php](Sprint_1/evidencias/index.php)
 
 Alguns exemplos de comandos utilizados para subir o repositório utilizando comandos Git, sendo exibidos pelo comando history:
 
-   [Comandos Git](evidencias.png)
+   [Comandos Git](Sprint_1//evidencias/Git.png)
 
 Portólio criado no projeto do curso de Git:
 
-   [Portfolio do Curso de Git](evidencias/PrintPortfolio.png)
+   [Portfolio do Curso de Git](Sprint_1/evidencias/PrintPortfolio.png)
 
 ## Certificados
 
@@ -72,43 +72,43 @@ Dados são, por muitos, considerados como o recurso mais valioso de nosso sécul
 ## Exercícios
 
 ### Caso de Estudo "Biblioteca"
-[Exercício 1](exercicios/ex1.sql)
+[Exercício 1](Sprint_2/exercicios/ex1.sql)
 
-[Exercício 2](exercicios/ex2.sql)
+[Exercício 2](Sprint_2/exercicios/ex2.sql)
 
-[Exercício 3](exercicios/ex3.sql)
+[Exercício 3](Sprint_2/exercicios/ex3.sql)
 
-[Exercício 4](exercicios/ex4.sql)
+[Exercício 4](Sprint_2/exercicios/ex4.sql)
 
-[Exercício 5](exercicios/ex5.sql)
+[Exercício 5](Sprint_2/exercicios/ex5.sql)
 
-[Exercício 6](exercicios/ex6.sql)
+[Exercício 6](Sprint_2/exercicios/ex6.sql)
 
-[Exercício 7](exercicios/ex7.sql)
+[Exercício 7](Sprint_2/exercicios/ex7.sql)
 
 ### Caso de Estudo "Loja"
-[Exercício 8](exercicios/ex8.sql)
+[Exercício 8](Sprint_2/exercicios/ex8.sql)
 
-[Exercício 9](exercicios/ex9.sql)
+[Exercício 9](Sprint_2/exercicios/ex9.sql)
 
-[Exercício 10](exercicios/ex10.sql)
+[Exercício 10](Sprint_2/exercicios/ex10.sql)
 
-[Exercício 11](exercicios/ex11.sql)
+[Exercício 11](Sprint_2/exercicios/ex11.sql)
 
-[Exercício 12](exercicios/ex12.sql)
+[Exercício 12](Sprint_2/exercicios/ex12.sql)
 
-[Exercício 13](exercicios/ex13.sql)
+[Exercício 13](Sprint_2/exercicios/ex13.sql)
 
-[Exercício 14](exercicios/ex14.sql)
+[Exercício 14](Sprint_2/exercicios/ex14.sql)
 
-[Exercício 15](exercicios/ex15.sql)
+[Exercício 15](Sprint_2/exercicios/ex15.sql)
 
-[Exercício 16](exercicios/ex16.sql)
+[Exercício 16](Sprint_2/exercicios/ex16.sql)
 
 ### Exportação de Dados
-[Exportação de Dados 1](exercicios/exportacao1.csv)
+[Exportação de Dados 1](Sprint_2/exercicios/exportacao1.csv)
 
-[Exportação de Dados 2](exercicios/exportacao2.csv)
+[Exportação de Dados 2](Sprint_2/exercicios/exportacao2.csv)
 
 
 ## Evidências
@@ -130,83 +130,88 @@ Uma das linguagens mais populares da atualidade e que possui uma ampla utilidade
 ## Exercícios
 
 ### Python I - 1/2
-[Exercício 1](exercicios/ex1.py)
+[Exercício 1](Sprint_3/exercicios/ex1.py)
 
-[Exercício 2](exercicios/ex2.py)
+[Exercício 2](Sprint_3/exercicios/ex2.py)
 
-[Exercício 3](exercicios/ex3.py)
+[Exercício 3](Sprint_3/exercicios/ex3.py)
 
-[Exercício 4](exercicios/ex4.py)
+[Exercício 4](Sprint_3/exercicios/ex4.py)
 
-[Exercício 5](exercicios/ex5.py)
+[Exercício 5](Sprint_3/exercicios/ex5.py)
 
 ### Python 1 - 2/2
 
-[Exercício 6](exercicios/ex6.py)
+[Exercício 6](Sprint_3/exercicios/ex6.py)
 
-[Exercício 7](exercicios/ex7.py)
+[Exercício 7](Sprint_3/exercicios/ex7.py)
 
-[Exercício 8](exercicios/ex8.py)
+[Exercício 8](Sprint_3/exercicios/ex8.py)
 
-[Exercício 9](exercicios/ex9.py)
+[Exercício 9](Sprint_3/exercicios/ex9.py)
 
-[Exercício 10](exercicios/ex10.py)
+[Exercício 10](Sprint_3/exercicios/ex10.py)
 
-[Exercício 11](exercicios/ex11.py)
+[Exercício 11](Sprint_3/exercicios/ex11.py)
 
-[Exercício 12](exercicios/ex12.py)
+[Exercício 12](Sprint_3/exercicios/ex12.py)
 
-[Exercício 13](exercicios/ex13.py)
+[Exercício 13](Sprint_3/exercicios/ex13.py)
 
-[Exercício 14](exercicios/ex14.py)
+[Exercício 14](Sprint_3/exercicios/ex14.py)
 
-[Exercício 15](exercicios/ex15.py)
+[Exercício 15](Sprint_3/exercicios/ex15.py)
 
-[Exercício 16](exercicios/ex16.py)
+[Exercício 16](Sprint_3/exercicios/ex16.py)
 
-[Exercício 17](exercicios/ex17.py)
+[Exercício 17](Sprint_3/exercicios/ex17.py)
 
-[Exercício 18](exercicios/ex18.py)
+[Exercício 18](Sprint_3/exercicios/ex18.py)
 
-[Exercício 19](exercicios/ex19.py)
+[Exercício 19](Sprint_3/exercicios/ex19.py)
 
-[Exercício 20](exercicios/ex20.py)
+[Exercício 20](Sprint_3/exercicios/ex20.py)
 
 ### Python II - 1/2
 
-[Exercício 21](exercicios/ex21.py)
+[Exercício 21](Sprint_3/exercicios/ex21.py)
 
-[Exercício 22](exercicios/ex22.py)
+[Exercício 22](Sprint_3/exercicios/ex22.py)
 
-[Exercício 23](exercicios/ex23.py)
+[Exercício 23](Sprint_3/exercicios/ex23.py)
 
-[Exercício 24](exercicios/ex24.py)
+[Exercício 24](Sprint_3/exercicios/ex24.py)
 
-[Exercício 25](exercicios/ex25.py)
+[Exercício 25](Sprint_3/exercicios/ex25.py)
 
 ### Python II - 2/2
 
-[Etapa 1 - Desafio - ETL com Python](exercicios/Desafio/etapa-1.txt)
+[Etapa 1 - Desafio - ETL com Python](Sprint_3/exercicios/Desafio/etapa-1.txt)
 
-[Etapa 2 - Desafio - ETL com Python](exercicios/Desafio/etapa-2.txt)
+[Etapa 2 - Desafio - ETL com Python](Sprint_3/exercicios/Desafio/etapa-2.txt)
 
-[Etapa 3 - Desafio - ETL com Python](exercicios/Desafio/etapa-3.txt)
+[Etapa 3 - Desafio - ETL com Python](Sprint_3/exercicios/Desafio/etapa-3.txt)
 
-[Etapa 4 - Desafio - ETL com Python](exercicios/Desafio/etapa-4.txt)
+[Etapa 4 - Desafio - ETL com Python](Sprint_3/exercicios/Desafio/etapa-4.txt)
 
-[Etapa 5 - Desafio - ETL com Python](exercicios/Desafio/etapa-5.txt)
+[Etapa 5 - Desafio - ETL com Python](Sprint_3/exercicios/Desafio/etapa-5.txt)
 
 ## Evidências
 
 Foi desenvolvido um caderno de códigos com alguns desafios propostos em aula. Além disso, nele também está contido o código fonte utilizado para completar o Desafio:
-* [Caderno de Códigos](evidencias/Notas%20Do%20Curso.ipynb)
+* [Caderno de Códigos](Sprint_3/evidencias/Notas%20Do%20Curso.ipynb)
 
 ## Certificados
 
 ![Certificado do curso de Python3](certificados/../Sprint_3/certificados/Python3.jpg)
 # Sprint 4 - Paradigma Funcional(Python) e Containers
 ## em breve...
+## Certificados
+
+![Certificado do curso de Python3](certificados/../Sprint_3/certificados/Python3.jpg)
+
 # Sprint 5 - Fundamentos de Computação em Nuvem (AWS)
+
 ## em breve...
 # Sprint 6 - Serviços Analíticos (AWS)
 ## em breve...
