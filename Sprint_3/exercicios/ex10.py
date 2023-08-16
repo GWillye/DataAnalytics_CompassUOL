@@ -4,6 +4,6 @@ Utilize a lista a seguir para testar sua função.
 ['abc', 'abc', 'abc', '123', 'abc', '123', '123']
 '''
 
-lista_original = ['abc', 'abc', 'abc', '123', 'abc', '123', '123']
-lista_sem_repetidos = list(set(lista_original))
-print(lista_sem_repetidos)
+lista = ['abc', 'abc', 'abc', '123', 'abc', '123', '123']
+lista = list(set(lista))
+print(lista)

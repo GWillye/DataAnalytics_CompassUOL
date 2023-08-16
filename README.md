@@ -186,20 +186,24 @@ Uma das linguagens mais populares da atualidade e que possui uma ampla utilidade
 
 ### Python II - 2/2
 
-[Desafio - ETL com Python](exercicios/desafio.py)
+[Etapa 1 - Desafio - ETL com Python](exercicios/Desafio/etapa-1.txt)
+
+[Etapa 2 - Desafio - ETL com Python](exercicios/Desafio/etapa-2.txt)
+
+[Etapa 3 - Desafio - ETL com Python](exercicios/Desafio/etapa-3.txt)
+
+[Etapa 4 - Desafio - ETL com Python](exercicios/Desafio/etapa-4.txt)
+
+[Etapa 5 - Desafio - ETL com Python](exercicios/Desafio/etapa-5.txt)
 
 ## Evidências
 
-Foi desenvolvido um caderno de códigos com alguns desafios propostos em aula:
+Foi desenvolvido um caderno de códigos com alguns desafios propostos em aula. Além disso, nele também está contido o código fonte utilizado para completar o Desafio:
 * [Caderno de Códigos](evidencias/Notas%20Do%20Curso.ipynb)
 
 ## Certificados
 
-Como o curso de Python se encerra na próxima sprint, ao invés do certificado, foi disponibilizado para comprovar o cumprimento do curso prints com as partes concluídas do curso.
-
-[Print1](certificados/print1.png)
-
-[Print2](certificados/print2.png)
+![Certificado do curso de Python3](certificados/../Sprint_3/certificados/Python3.jpg)
 # Sprint 4 - Paradigma Funcional(Python) e Containers
 ## em breve...
 # Sprint 5 - Fundamentos de Computação em Nuvem (AWS)
