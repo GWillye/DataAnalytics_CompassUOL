@@ -20,8 +20,7 @@ class Aviao:
         self.cor = cor
         
     def to_string(self):
-        print(f"O avião de modelo {self.modelo} possui uma velocidade máxima de {self.velocidade_maxima} km/h, 
-              capacidade para {self.capacidade} passageiros e é da cor {self.cor}.")
+        print(f"O avião de modelo {self.modelo} possui uma velocidade máxima de {self.velocidade_maxima} km/h, capacidade para {self.capacidade} passageiros e é da cor {self.cor}.")
         
 aviao1 = Aviao('BOEING456', 1500, 400, 'azul')
 aviao2 = Aviao('Embraer Praetor 600', 863, 14, 'azul')
