@@ -205,10 +205,36 @@ Foi desenvolvido um caderno de códigos com alguns desafios propostos em aula. A
 
 ![Certificado do curso de Python3](certificados/../Sprint_3/certificados/Python3.jpg)
 # Sprint 4 - Paradigma Funcional(Python) e Containers
-## em breve...
+
+Neste Sprint, aprendemos formas de como utilizar a Programação Funcional, um paradigma muito utilizado, e Docker, uma tecnologia para administrar containers (Containers são projetos que permitem criar um ambiente de desenvolvimento isolado e compartilhar este ambiente com outras pessoas). Além disso, estudamos tecnologias e métodos estatísticos, que juntos do Python, formam um conjunto extremamente útil e otimizado para a área de Data & Analytics.
+## Exercícios
+
+### Programação Funcional
+[Exercício 1](Sprint_4/exercicios/ex1.py)
+
+[Exercício 2](Sprint_4/exercicios/ex2.py)
+
+[Exercício 3](Sprint_4/exercicios/ex3.py)
+
+[Exercício 4](Sprint_4/exercicios/ex4.py)
+
+[Exercício 5](Sprint_4/exercicios/ex5.py)
+
+### Exercício Docker
+
+[Desafio Docker](Sprint_4/exercicios/DesafioDocker/)
+
+## Evidências
+
+[Link do resumo do curso de Docker](https://gabrielwillye.notion.site/Docker-4beb4a3cf3374fa99f6cd06bcee3531c?pvs=4)
+
+[Link do resumo do curso de Estatística Descritiva com Python](https://gabrielwillye.notion.site/Estat-stica-Descritiva-com-Python-ee1d1dae1abe4696bb1473b55a75aaad?pvs=4)
+
+[Caderno de Exercícios - Curso de Estatistica](Sprint_4/evidencias/Estatistica.ipynb)
 ## Certificados
 
-![Certificado do curso de Python3](certificados/../Sprint_3/certificados/Python3.jpg)
+![Certificado do curso de Python3](Sprint_4/certificados/EstDescPy.jpg)
+![Certificado do curso de Python3](Sprint_4/certificados/Docker.jpg)
 
 # Sprint 5 - Fundamentos de Computação em Nuvem (AWS)
 
