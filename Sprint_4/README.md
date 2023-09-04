@@ -27,8 +27,8 @@ Neste Sprint, aprendemos formas de como utilizar a Programação Funcional, um p
 [Caderno de Exercícios - Curso de Estatistica](evidencias/Estatistica.ipynb)
 ## Certificados
 
-![Certificado do curso de Python3](certificados/EstDescPy.jpg)
-![Certificado do curso de Python3](certificados/Docker.jpg)
+![Certificado do curso de Estatística Descritiva em Python](certificados/EstDescPy.jpg)
+![Certificado do curso de Docker e Kubernetes](certificados/Docker.jpg)
 
 # D&A - AWS [Compass.UOL](https://compass.uol/pt/home/?utm_source=google-ads&utm_medium=ppc&utm_campaign=compasso-uol-institucional&utm_term=compass+uol)
 
