@@ -1,6 +1,6 @@
-# Sprint 5 - 
+# Sprint 5 - Fundamentos de Computação em Nuvem (AWS)
 
-Descrição
+Nesta Sprint começamos a estudar os fundamentos da Computação em Nuvem com foco em Amazon Web Services e sua tecnologia. Estudamos conteúdos que nos auxiliam a compreender o que é a AWS, como funcionam algumas tecnologias deles e outros conteúdos que nos auxiliam a aprender e se preparar para a Certificação Cloud Pratictioner.
 
 ## Exercícios
 
@@ -8,15 +8,20 @@ Não tivemos exercícios nesta Sprint
 
 ## Evidências
 
-[Link do resumo do curso de n](https://gabrielwillye.notion.site/INSERIR O RESTO DO LINK AQUI)
+[Resumo do curso de AWS Partner: Sales Accreditation](https://gabrielwillye.notion.site/AWS-Sales-Accreditation-498f1ef430a3482ab7c039a0b80d4f28?pvs=4)
+[Resumo do curso de AWS Partner: Accreditation]((https://gabrielwillye.notion.site/AWS-Accreditation-afbd292cebef4674a537d4b0db70f919?pvs=4))
+[Resumo do curso de AWS Partner: Cloud Economics Accreditation](https://gabrielwillye.notion.site/AWS-Cloud-Economics-Accreditaion-365d5273eaf6475fbbfd2bcec47de53a?pvs=4)
+[Resumo do curso Exam Prep: AWS Certified Cloud Practitioner]([INSERIR LINK](https://gabrielwillye.notion.site/Exam-Prep-AWS-Cloud-Practitioner-55e4e47b14a4487ab71569eef57c0391?pvs=4))
 
 ## Certificados
 
-![Certificado do curso de N](certificados/N.jpg)
-
+![Certificado do curso de AWS Partner: Sales Accreditation](certificados/Sales.jpg)
+![Certificado do curso de AWS Cloud Quest: Cloud Practitioner](certificados/CloudQuest.jpg)
+![Certificado do curso de AWS Partner: Accreditation](certificados/Accreditation.jpg)
+![Certificado do curso de AWS Partner: Cloud Economics Accreditation](certificados/Cloud.jpg)
+![Certificado do curso Exam Prep: AWS Certified Cloud Practitioner](certificados/ExamPrep.jpg)
 
 # D&A - AWS [Compass.UOL](https://compass.uol/pt/home/?utm_source=google-ads&utm_medium=ppc&utm_campaign=compasso-uol-institucional&utm_term=compass+uol)
-
 # Olá, meu nome é Gabriel WIllye
 
 #### 🏡Cidade: [Campo Grande/MS](https://www.google.com.br/maps/place/Campo+Grande,+MS/@-20.6258611,-54.8465322,10z/data=!3m1!4b1!4m6!3m5!1s0x9486f3f8b2834447:0xa35a7db8b968e5fd!8m2!3d-20.6281521!4d-54.5218074!16s%2Fg%2F11rgdh3sd7?entry=ttu)
