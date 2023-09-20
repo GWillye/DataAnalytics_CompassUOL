@@ -2,7 +2,7 @@
 
 Ser ágil faz parte da cultura da Compass, mas afinal, o que é ser ágil? Esta primeira seção da trilha foi reservada para descobrir, estudar e compreender alguns conceitos que giram em torno disso. Uma das tecnologias mais essenciais para manter as coisas em ordem, e que é essencial para o sucesso de projetos que envolvem codificação, é o versionamento de código. E, quando se estuda versionamento, muitos dos comandos utilizados são baseados no Sistema Operacional Linux. Assim sendo, nesta primeira sprint, foram estudados sobre o que são e como funcionam Metodologias Ágeis, o que é versionamento de código e como o utilizar através do Git, assim como o sistema operacional Linux, seus principais comandos e configurações.
 
-Nesta sprint, conceitos de Metodologia Ágil, Gerência de Projetos, SCRUM, Kanban, Spotify Squads (que é bem semelhante ao modo de trabalho da Compass UOL), Design Sprint Google, S.M.A.R.T., Gestão Lean, assim como ferramentas como o Trello e a Asana, Storyboards, Mapas de Empatia, foram aprendidos. Além disso, também foram estudados o funcionamento de um Sistema Operacional Linux, os principais comandos do terminal e como configurar um espaço para desenvolvimento. Por último, foi visto como funciona o versionamento de código através do Git na plataforma do GitHub. 
+Nesta sprint, conceitos de Metodologia Ágil, Gerência de Projetos, SCRUM, Kanban, Spotify Squads (que é bem semelhante ao modo de trabalho da Compass UOL), Design Sprint Google, S.M.A.R.T., Gestão Lean, assim como ferramentas como o Trello e a Asana, Storyboards, Mapas de Empatia, foram aprendidos. Além disso, também foram estudados o funcionamento de um Sistema Operacional Linux, os principais comandos do terminal e como configurar um espaço para desenvolvimento. Por último, foi visto como funciona o versionamento de código através do Git na plataforma do GitHub.
 
 ## Exercícios
 
@@ -15,7 +15,7 @@ Nesta sprint, conceitos de Metodologia Ágil, Gerência de Projetos, SCRUM, Kanb
 
 Foram desenvolvidos resumos sobre o estudado em cada curso, e estão disponíveis para acesso em Notion.so. No arquivo "Resumos.txt" está anexado o link, e os links  dos resumos dos cursos estão disponíveis aqui também:
 
-* [Resumo do curso de Git](https://gabrielwillye.notion.site/gabrielwillye/Comandos-Git-7f64ad1cb110467bb12d9ffc79396d9a) 
+* [Resumo do curso de Git](https://gabrielwillye.notion.site/gabrielwillye/Comandos-Git-7f64ad1cb110467bb12d9ffc79396d9a)
 * [Resumo do curso de Linux](https://gabrielwillye.notion.site/gabrielwillye/Comandos-Linux-1f45ebb40fdc47b49a16f798aa6bfd04)
 * [Resumo do curso de Metodologia Ágil](https://gabrielwillye.notion.site/gabrielwillye/Metodologias-geis-45da3933fdcd43d79e5915fc6fb57228)
 

@@ -20,7 +20,7 @@ O restante do meu tempo livre eu normalmente passo envolvido com atividades de m
 
 Ser ágil faz parte da cultura da Compass, mas afinal, o que é ser ágil? Esta primeira seção da trilha foi reservada para descobrir, estudar e compreender alguns conceitos que giram em torno disso. Uma das tecnologias mais essenciais para manter as coisas em ordem, e que é essencial para o sucesso de projetos que envolvem codificação, é o versionamento de código. E, quando se estuda versionamento, muitos dos comandos utilizados são baseados no Sistema Operacional Linux. Assim sendo, nesta primeira sprint, foram estudados sobre o que são e como funcionam Metodologias Ágeis, o que é versionamento de código e como o utilizar através do Git, assim como o sistema operacional Linux, seus principais comandos e configurações.
 
-Nesta sprint, conceitos de Metodologia Ágil, Gerência de Projetos, SCRUM, Kanban, Spotify Squads (que é bem semelhante ao modo de trabalho da Compass UOL), Design Sprint Google, S.M.A.R.T., Gestão Lean, assim como ferramentas como o Trello e a Asana, Storyboards, Mapas de Empatia, foram aprendidos. Além disso, também foram estudados o funcionamento de um Sistema Operacional Linux, os principais comandos do terminal e como configurar um espaço para desenvolvimento. Por último, foi visto como funciona o versionamento de código através do Git na plataforma do GitHub. 
+Nesta sprint, conceitos de Metodologia Ágil, Gerência de Projetos, SCRUM, Kanban, Spotify Squads (que é bem semelhante ao modo de trabalho da Compass UOL), Design Sprint Google, S.M.A.R.T., Gestão Lean, assim como ferramentas como o Trello e a Asana, Storyboards, Mapas de Empatia, foram aprendidos. Além disso, também foram estudados o funcionamento de um Sistema Operacional Linux, os principais comandos do terminal e como configurar um espaço para desenvolvimento. Por último, foi visto como funciona o versionamento de código através do Git na plataforma do GitHub.
 
 ### Sprint 1 - Exercícios
 
@@ -33,7 +33,7 @@ Nesta sprint, conceitos de Metodologia Ágil, Gerência de Projetos, SCRUM, Kanb
 
 Foram desenvolvidos resumos sobre o estudado em cada curso, e estão disponíveis para acesso em Notion.so. No arquivo "Resumos.txt" está anexado o link, e os links  dos resumos dos cursos estão disponíveis aqui também:
 
-* [Resumo do curso de Git](https://gabrielwillye.notion.site/gabrielwillye/Comandos-Git-7f64ad1cb110467bb12d9ffc79396d9a) 
+* [Resumo do curso de Git](https://gabrielwillye.notion.site/gabrielwillye/Comandos-Git-7f64ad1cb110467bb12d9ffc79396d9a)
 * [Resumo do curso de Linux](https://gabrielwillye.notion.site/gabrielwillye/Comandos-Linux-1f45ebb40fdc47b49a16f798aa6bfd04)
 * [Resumo do curso de Metodologia Ágil](https://gabrielwillye.notion.site/gabrielwillye/Metodologias-geis-45da3933fdcd43d79e5915fc6fb57228)
 
@@ -113,7 +113,7 @@ Nesta Sprint tivemos dois casos de estudo: Biblioteca e Loja.
 
 Foram desenvolvidos resumos sobre o estudado em cada curso, e estão disponíveis para acesso em Notion.so. No arquivo "Resumos.txt" está anexado o link, e os links  dos resumos dos cursos estão disponíveis aqui também:
 
-* [Resumo do curso de SQL para Análise de Dados](https://gabrielwillye.notion.site/SQL-para-An-lise-de-Dados-c3292e791c4c422a85b7be54c7c4f1b6?pvs=4) 
+* [Resumo do curso de SQL para Análise de Dados](https://gabrielwillye.notion.site/SQL-para-An-lise-de-Dados-c3292e791c4c422a85b7be54c7c4f1b6?pvs=4)
 * [Resumo do curso de Big Data](https://gabrielwillye.notion.site/Fundamentos-de-Big-Data-79a06f2c95214628a5e1a884cb6ce161?pvs=4)
 
 ### Sprint 2 - Certificados
@@ -262,14 +262,56 @@ Não tivemos exercícios nesta Sprint
 ### Sprint 5 - Certificados
 
 ![Selo do curso de AWS Partner: Sales Accreditation](Sprint_5/certificados/Sales.png)
-![Selo do curso de AWS Cloud Quest: Cloud Practitioner](Sprint_5/certificados/CloudQuest.jpg)
-![Selo do curso de AWS Partner: Accreditation](Sprint_5/certificados/Accreditation.jpg)
-![Selo do curso de AWS Partner: Cloud Economics Accreditation](Sprint_5/certificados/Cloud.jpg)
-![Selo do curso Exam Prep: AWS Certified Cloud Practitioner](Sprint_5/certificados/ExamPrep.jpg)
+![Selo do curso de AWS Cloud Quest: Cloud Practitioner](Sprint_5/certificados/CloudQuest.png)
+![Selo do curso de AWS Partner: Accreditation](Sprint_5/certificados/Accreditation.png)
+![Selo do curso de AWS Partner: Cloud Economics Accreditation](Sprint_5/certificados/Cloud.png)
+![Selo do curso Exam Prep: AWS Certified Cloud Practitioner](Sprint_5/certificados/ExamPrep.png)
 
 ## Sprint 6 - Serviços Analíticos (AWS)
 
-**Em breve...**
+Nesta Sprint, foram estudadas as ferramentas e técnicas disponibilizadas pela Amazon Web Services para serviços de Data & Analytics. Além disso, foram executados exercícios práticos para aprofundar e treinar os conceitos estudados.
+
+## Exercícios
+
+### Laboratório AWS S3
+
+### Laboratório AWS Athena
+
+### Laboratório AWS Lambda
+
+### Laboratório AWS - Limpeza de recursos
+
+## Evidências
+
+[Resumo do curso de AWS Kinesis Analytics](Sprint_6/evidencias/AmazonKinesisAnalytics.md)
+[Resumo do curso de AWS Partner: Data Analytics on AWS - Business](Sprint_6/evidencias/DataAnalytics.md)
+[Resumo do curso de AWS Partner: Data Analytics Fundamentals](Sprint_6/evidencias/DataAnalyticsFundamentals.md)
+[Resumo do curso Amazon Kinesis Streams](Sprint_6/evidencias/AmazonKinesisStreams.md)
+[Resumo do curso Amazon Elastic MapReduce](Sprint_6/evidencias/AmazonEMR.md)
+[Resumo do curso Amazon Athena](Sprint_6/evidencias/AmazonAthena.md)
+[Resumo do curso Amazon Quicksight](Sprint_6/evidencias/AmazonQuicksight.md)
+[Resumo do curso AWS IoT Analytics](Sprint_6/evidencias/IoTAnalytics.md)
+[Resumo do curso Getting Started with Amazon Redshift](Sprint_6/evidencias/AmazonRedshift.md)
+[Resumo do curso Deep Dive into Concepts and Tools for Analyzing Streaming Data](Sprint_6/evidencias/DeepDive.md)
+[Resumo do curso Best Practices for Data Warehousing with Amazon Redshift](Sprint_6/evidencias/DataWarehousing.md)
+[Resumo do curso Serverless Analytics](Sprint_6/evidencias/ServerlessAnalytics.md)
+[Resumo do curso Why Analytics for Games](Sprint_6/evidencias/AnalyticsGames.md)
+
+## Certificados
+
+![Selo do curso de Amazon Kinesis Analytics](Sprint_6/certificados/KinesisAnalytics.png)
+![Selo do curso de AWS Partner: Data Analytics on AWS - Business](Sprint_6/certificados/DataAnalytics.png)
+![Selo do curso de AWS Partner: Data Analytics Fundamentals](Sprint_6/certificados/DataAnalyticsFundamentals.png)
+![Selo do curso Amazon Kinesis Streams](Sprint_6/certificados/AmazonKinesisStreams.png)
+![Selo do curso Amazon Elastic MapReduce](Sprint_6/certificados/AmazonEMR.png)
+![Selo do curso Amazon Athena](Sprint_6/certificados/AmazonAthena.png)
+![Selo do curso Amazon Quicksight](Sprint_6/certificados/AmazonQuicksight.png)
+![Selo do curso AWS IoT Analytics](Sprint_6/certificados/IoTAnalytics.png)
+![Selo do curso Getting Started with Amazon Redshift](Sprint_6/certificados/AmazonRedshift.png)
+![Selo do curso Deep Dive into Concepts and Tools for Analyzing Streaming Data](Sprint_6/certificados/DeepDive.png)
+![Selo do curso Best Practices for Data Warehousing with Amazon Redshift](Sprint_6/certificados/DataWarehousing.png)
+![Selo do curso Serverless Analytics](Sprint_6/certificados/ServerlessAnalytics.png)
+![Selo do curso Why Analytics for Games](Sprint_6/certificados/AnalyticsGames.png)
 
 ## Sprint 7 - Plataformas Big Data (Spark, Hadoop)
 
