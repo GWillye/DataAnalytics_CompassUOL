@@ -15,17 +15,29 @@ Nesta Sprint, foram estudadas as ferramentas e técnicas disponibilizadas pela A
 ## Evidências
 
 [Resumo do curso de AWS Kinesis Analytics](evidencias/AmazonKinesisAnalytics.md)
+
 [Resumo do curso de AWS Partner: Data Analytics on AWS - Business](evidencias/DataAnalytics.md)
+
 [Resumo do curso de AWS Partner: Data Analytics Fundamentals](evidencias/DataAnalyticsFundamentals.md)
+
 [Resumo do curso Amazon Kinesis Streams](evidencias/AmazonKinesisStreams.md)
+
 [Resumo do curso Amazon Elastic MapReduce](evidencias/AmazonEMR.md)
+
 [Resumo do curso Amazon Athena](evidencias/AmazonAthena.md)
+
 [Resumo do curso Amazon Quicksight](evidencias/AmazonQuicksight.md)
+
 [Resumo do curso AWS IoT Analytics](evidencias/IoTAnalytics.md)
+
 [Resumo do curso Getting Started with Amazon Redshift](evidencias/AmazonRedshift.md)
+
 [Resumo do curso Deep Dive into Concepts and Tools for Analyzing Streaming Data](evidencias/DeepDive.md)
+
 [Resumo do curso Best Practices for Data Warehousing with Amazon Redshift](evidencias/DataWarehousing.md)
+
 [Resumo do curso Serverless Analytics](evidencias/ServerlessAnalytics.md)
+
 [Resumo do curso Why Analytics for Games](evidencias/AnalyticsGames.md)
 
 ## Certificados
@@ -33,16 +45,16 @@ Nesta Sprint, foram estudadas as ferramentas e técnicas disponibilizadas pela A
 ![Print de conclusão do curso de Amazon Kinesis Analytics](certificados/KinesisAnalytics.png)
 ![Selo do curso de AWS Partner: Data Analytics on AWS - Business](certificados/DataAnalytics.png)
 ![Selo do curso de AWS Partner: Data Analytics Fundamentals](certificados/DataAnalyticsFundamentals.png)
-![Selo do curso Amazon Kinesis Streams](certificados/AmazonKinesisStreams.png)
-![Selo do curso Amazon Elastic MapReduce](certificados/AmazonEMR.png)
-![Selo do curso Amazon Athena](certificados/AmazonAthena.png)
-![Selo do curso Amazon Quicksight](certificados/AmazonQuicksight.png)
-![Selo do curso AWS IoT Analytics](certificados/IoTAnalytics.png)
-![Selo do curso Getting Started with Amazon Redshift](certificados/AmazonRedshift.png)
-![Selo do curso Deep Dive into Concepts and Tools for Analyzing Streaming Data](certificados/DeepDive.png)
-![Selo do curso Best Practices for Data Warehousing with Amazon Redshift](certificados/DataWarehousing.png)
-![Selo do curso Serverless Analytics](certificados/ServerlessAnalytics.png)
-![Selo do curso Why Analytics for Games](certificados/AnalyticsGames.png)
+![Print de conclusão do curso Amazon Kinesis Streams](certificados/AmazonKinesisStreams.png)
+![Print de conclusão do curso Amazon Elastic MapReduce](certificados/AmazonEMR.png)
+![Print de conclusão do curso Amazon Athena](certificados/AmazonAthena.png)
+![Print de conclusão do curso Amazon Quicksight](certificados/AmazonQuicksight.png)
+![Print de conclusão do curso AWS IoT Analytics](certificados/IoTAnalytics.png)
+![Print de conclusão do curso Getting Started with Amazon Redshift](certificados/AmazonRedshift.png)
+![Print de conclusão do curso Deep Dive into Concepts and Tools for Analyzing Streaming Data](certificados/DeepDive.png)
+![Print de conclusão do curso Best Practices for Data Warehousing with Amazon Redshift](certificados/DataWarehousing.png)
+![Print de conclusão do curso Serverless Analytics](certificados/ServerlessAnalytics.png)
+![Print de conclusão do curso Why Analytics for Games](certificados/AnalyticsGames.png)
 
 ## D&A - AWS [Compass.UOL](https://compass.uol/pt/home/?utm_source=google-ads&utm_medium=ppc&utm_campaign=compasso-uol-institucional&utm_term=compass+uol): Sobre mim
 

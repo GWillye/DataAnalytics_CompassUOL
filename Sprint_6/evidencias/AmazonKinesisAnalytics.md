@@ -32,3 +32,4 @@ Processa e analisa dados de streaming em tempo real com SQL
 * Select Kinesis Stream or Kinesis Firehose Delivery Stream
 * Write your SQL queries to process data
 * Configure your output stream and destination
+  
