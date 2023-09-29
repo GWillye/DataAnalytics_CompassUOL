@@ -20,31 +20,21 @@ Nesta Sprint, foram estudadas as ferramentas e técnicas disponibilizadas pela A
 
 ## Evidências
 
-[Resumo do curso de AWS Kinesis Analytics](evidencias/AmazonKinesisAnalytics.md)
+[Resumo do curso de AWS Kinesis Analytics](Sprint_6/evidencias/AmazonKinesisAnalytics.md)
 
-[Resumo do curso de AWS Partner: Data Analytics on AWS - Business](evidencias/DataAnalytics.md)
+[Resumo do curso de AWS Partner: Data Analytics on AWS - Business](Sprint_6/evidencias/DataAnalytics.md)
 
-[Resumo do curso de AWS Partner: Data Analytics Fundamentals](evidencias/DataAnalyticsFundamentals.md)
+[Resumo do curso Amazon Kinesis Streams](Sprint_6/evidencias/AmazonKinesisStreams.md)
 
-[Resumo do curso Amazon Kinesis Streams](evidencias/AmazonKinesisStreams.md)
+[Resumo do curso Amazon Elastic MapReduce](Sprint_6/evidencias/AmazonEMR.md)
 
-[Resumo do curso Amazon Elastic MapReduce](evidencias/AmazonEMR.md)
+[Resumo do curso Amazon Athena](Sprint_6/evidencias/AmazonAthena.md)
 
-[Resumo do curso Amazon Athena](evidencias/AmazonAthena.md)
+[Resumo do curso AWS IoT Analytics](Sprint_6/evidencias/IoTAnalytics.md)
 
-[Resumo do curso Amazon Quicksight](evidencias/AmazonQuicksight.md)
+[Resumo do curso Getting Started with Amazon Redshift](Sprint_6/evidencias/AmazonRedshift.md)
 
-[Resumo do curso AWS IoT Analytics](evidencias/IoTAnalytics.md)
-
-[Resumo do curso Getting Started with Amazon Redshift](evidencias/AmazonRedshift.md)
-
-[Resumo do curso Deep Dive into Concepts and Tools for Analyzing Streaming Data](evidencias/DeepDive.md)
-
-[Resumo do curso Best Practices for Data Warehousing with Amazon Redshift](evidencias/DataWarehousing.md)
-
-[Resumo do curso Serverless Analytics](evidencias/ServerlessAnalytics.md)
-
-[Resumo do curso Why Analytics for Games](evidencias/AnalyticsGames.md)
+[Resumo do curso Why Analytics for Games](Sprint_6/evidencias/AnalyticsGames.md)
 
 ## Certificados
 
