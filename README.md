@@ -275,9 +275,15 @@ Nesta Sprint, foram estudadas as ferramentas e técnicas disponibilizadas pela A
 
 ### Laboratório AWS S3
 
+![Print do exercício concluído](Sprint_6/../exercicios/Lab_AWS_S3.png)
+
 ### Laboratório AWS Athena
 
+![Print do exercício concluído](Sprint_6/../exercicios/Lab_AWS_Athena.png)
+
 ### Laboratório AWS Lambda
+
+![Print do exercício concluído](Sprint_6/../exercicios/Lab_AWS_Lambda.png)
 
 ### Laboratório AWS - Limpeza de recursos
 
@@ -311,19 +317,19 @@ Nesta Sprint, foram estudadas as ferramentas e técnicas disponibilizadas pela A
 
 ## Certificados
 
-![Selo do curso de Amazon Kinesis Analytics](Sprint_6/certificados/KinesisAnalytics.png)
-![Selo do curso de AWS Partner: Data Analytics on AWS - Business](Sprint_6/certificados/DataAnalytics.png)
-![Selo do curso de AWS Partner: Data Analytics Fundamentals](Sprint_6/certificados/DataAnalyticsFundamentals.png)
-![Selo do curso Amazon Kinesis Streams](Sprint_6/certificados/AmazonKinesisStreams.png)
-![Selo do curso Amazon Elastic MapReduce](Sprint_6/certificados/AmazonEMR.png)
-![Selo do curso Amazon Athena](Sprint_6/certificados/AmazonAthena.png)
-![Selo do curso Amazon Quicksight](Sprint_6/certificados/AmazonQuicksight.png)
-![Selo do curso AWS IoT Analytics](Sprint_6/certificados/IoTAnalytics.png)
-![Selo do curso Getting Started with Amazon Redshift](Sprint_6/certificados/AmazonRedshift.png)
-![Selo do curso Deep Dive into Concepts and Tools for Analyzing Streaming Data](Sprint_6/certificados/DeepDive.png)
-![Selo do curso Best Practices for Data Warehousing with Amazon Redshift](Sprint_6/certificados/DataWarehousing.png)
-![Selo do curso Serverless Analytics](Sprint_6/certificados/ServerlessAnalytics.png)
-![Selo do curso Why Analytics for Games](Sprint_6/certificados/AnalyticsGames.png)
+![Certificado de conclusão do curso de Amazon Kinesis Analytics](Sprint_6/certificados/KinesisAnalytics.png)
+![Certificado de conclusão do curso de AWS Partner: Data Analytics on AWS - Business](Sprint_6/certificados/DataAnalytics.png)
+![Certificado de conclusão do curso de AWS Partner: Data Analytics Fundamentals](Sprint_6/certificados/DataAnalyticsFundamentals.png)
+![Certificado de conclusão do curso Amazon Kinesis Streams](Sprint_6/certificados/AmazonKinesisStreams.png)
+![Certificado de conclusão do curso Amazon Elastic MapReduce](Sprint_6/certificados/AmazonEMR.png)
+![Certificado de conclusão do curso Amazon Athena](Sprint_6/certificados/AmazonAthena.png)
+![Certificado de conclusão do curso Amazon Quicksight](Sprint_6/certificados/AmazonQuicksight.png)
+![Certificado de conclusão do curso AWS IoT Analytics](Sprint_6/certificados/IoTAnalytics.png)
+![Certificado de conclusão do curso Getting Started with Amazon Redshift](Sprint_6/certificados/AmazonRedshift.png)
+![Certificado de conclusão do curso Deep Dive into Concepts and Tools for Analyzing Streaming Data](Sprint_6/certificados/DeepDive.png)
+![Certificado de conclusão do curso Best Practices for Data Warehousing with Amazon Redshift](Sprint_6/certificados/DataWarehousing.png)
+![Certificado de conclusão do curso Serverless Analytics](Sprint_6/certificados/ServerlessAnalytics.png)
+![Certificado de conclusão do curso Why Analytics for Games](Sprint_6/certificados/AnalyticsGames.png)
 
 ## Sprint 7 - Plataformas Big Data (Spark, Hadoop)
 
