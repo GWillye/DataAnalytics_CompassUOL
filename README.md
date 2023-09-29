@@ -275,15 +275,15 @@ Nesta Sprint, foram estudadas as ferramentas e técnicas disponibilizadas pela A
 
 ### Laboratório AWS S3
 
-![Print do exercício concluído](Sprint_6/../exercicios/Lab_AWS_S3.png)
+![Print](Sprint_6/exercicios/Lab_AWS_S3.png)
 
 ### Laboratório AWS Athena
 
-![Print do exercício concluído](Sprint_6/../exercicios/Lab_AWS_Athena.png)
+![Print](Sprint_6/exercicios/Lab_AWS_Athena.png)
 
 ### Laboratório AWS Lambda
 
-![Print do exercício concluído](Sprint_6/../exercicios/Lab_AWS_Lambda.png)
+![Print](Sprint_6/exercicios/Lab_AWS_Lambda.png)
 
 ### Laboratório AWS - Limpeza de recursos
 
