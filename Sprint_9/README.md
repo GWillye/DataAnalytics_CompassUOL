@@ -2,17 +2,15 @@
 
 Exemplo
 
-## Exercícios
+## Sprint 9 - Exercícios
 
 Exemplo
 
-## Evidências
+## Sprint 9 - Evidências
 
 [Resumo do curso Exemplo](Exemplo)
 
-
-
-## Certificados
+## Sprint 9 - Certificados
 
 ![Exemplo](certificados/Exemplo)
 
@@ -32,4 +30,4 @@ Sou animado e extrovertido, fazendo meus projetos e tarefas com muita animação
 ## Hobbies
 
 Meus hobbies principais giram em torno de ouvir músicas (minha playlist no [Spotify](https://open.spotify.com/playlist/60y6pGtZ0K207UEY6QipqZ?si=4da97c4284724c35)), ler livros e estudar conteúdos que não são diretamente relacionados com minha carreira, como filosofia, sociologia, psicologia, teologia e história. Estou estudando inglês e pretendo também aprender russo.
-O restante do meu tempo livre eu normalmente passo envolvido com atividades de minha igreja (sou Adventista do Sétimo Dia), como professor da Escola Sabatina, Sonoplastia e Comunicação, e também instrutor no Clube de Desbravadores de uma classe com crianças de 13 anos.
+O restante do meu tempo livre eu normalmente passo envolvido com atividades de minha igreja (sou Adventista do Sétimo Dia), como professor da Escola Sabatina, Sonoplastia e Comunicação, e também instrutor no Clube de Desbravadores de uma classe com crianças de 13 anos. Além disso, atuo também como membro voluntário do Programa de Educação e Tutoria Sistemas em minha universidade e sou o representante discente do curso de Sistemas de Informação.

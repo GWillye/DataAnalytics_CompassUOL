@@ -2,19 +2,33 @@
 
 Exemplo
 
-## Exercícios
+## Sprint 7 - Exercícios
 
-Exemplo
+### Tarefa 1 - Python com Pandas e Numpy
 
-## Evidências
+Documentos
 
-[Resumo do curso Exemplo](Exemplo)
+### Tarefa 2 - Apache Spark - Contador de Palavras
 
+Documentos
 
+### Laboratório - AWS Glue
 
-## Certificados
+Documentos
 
-![Exemplo](certificados/Exemplo)
+### Desafio - Parte I - ETL
+
+Documentos
+
+## Sprint 7 - Evidências
+
+[Resumo do curso de Hadoop](evidencias/Hadoop.md)
+[Resumo do curso Formação Spark com Pyspark](evidencias/Spark.md)
+
+## Sprint 7 - Certificados
+
+![Learn by Example: Hadoop, Map Reduce for Big Data problems](certificados/Hadoop.png)
+![Formação Spark com Pyspark: O Curso Completo](certificados/Spark.png)
 
 ## D&A - AWS [Compass.UOL](https://compass.uol/pt/home/?utm_source=google-ads&utm_medium=ppc&utm_campaign=compasso-uol-institucional&utm_term=compass+uol): Sobre mim
 
@@ -32,4 +46,4 @@ Sou animado e extrovertido, fazendo meus projetos e tarefas com muita animação
 ## Hobbies
 
 Meus hobbies principais giram em torno de ouvir músicas (minha playlist no [Spotify](https://open.spotify.com/playlist/60y6pGtZ0K207UEY6QipqZ?si=4da97c4284724c35)), ler livros e estudar conteúdos que não são diretamente relacionados com minha carreira, como filosofia, sociologia, psicologia, teologia e história. Estou estudando inglês e pretendo também aprender russo.
-O restante do meu tempo livre eu normalmente passo envolvido com atividades de minha igreja (sou Adventista do Sétimo Dia), como professor da Escola Sabatina, Sonoplastia e Comunicação, e também instrutor no Clube de Desbravadores de uma classe com crianças de 13 anos.
+O restante do meu tempo livre eu normalmente passo envolvido com atividades de minha igreja (sou Adventista do Sétimo Dia), como professor da Escola Sabatina, Sonoplastia e Comunicação, e também instrutor no Clube de Desbravadores de uma classe com crianças de 13 anos. Além disso, atuo também como membro voluntário do Programa de Educação e Tutoria Sistemas em minha universidade e sou o representante discente do curso de Sistemas de Informação.

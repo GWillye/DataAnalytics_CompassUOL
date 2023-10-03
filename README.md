@@ -14,7 +14,7 @@ Sou animado e extrovertido, fazendo meus projetos e tarefas com muita animação
 ## Hobbies
 
 Meus hobbies principais giram em torno de ouvir músicas (minha playlist no [Spotify](https://open.spotify.com/playlist/60y6pGtZ0K207UEY6QipqZ?si=4da97c4284724c35)), ler livros e estudar conteúdos que não são diretamente relacionados com minha carreira, como filosofia, sociologia, psicologia, teologia e história. Estou estudando inglês e pretendo também aprender russo.
-O restante do meu tempo livre eu normalmente passo envolvido com atividades de minha igreja (sou Adventista do Sétimo Dia), como professor da Escola Sabatina, Sonoplastia e Comunicação, e também instrutor no Clube de Desbravadores de uma classe com crianças de 13 anos.
+O restante do meu tempo livre eu normalmente passo envolvido com atividades de minha igreja (sou Adventista do Sétimo Dia), como professor da Escola Sabatina, Sonoplastia e Comunicação, e também instrutor no Clube de Desbravadores de uma classe com crianças de 13 anos. Além disso, atuo também como membro voluntário do Programa de Educação e Tutoria Sistemas em minha universidade e sou o representante discente do curso de Sistemas de Informação.
 
 ## Sprint 1 - Markdown, Git e Linux
 
@@ -271,23 +271,23 @@ Não tivemos exercícios nesta Sprint
 
 Nesta Sprint, foram estudadas as ferramentas e técnicas disponibilizadas pela Amazon Web Services para serviços de Data & Analytics. Além disso, foram executados exercícios práticos para aprofundar e treinar os conceitos estudados.
 
-## Exercícios
+### Sprint 6 - Exercícios
 
-### Laboratório AWS S3
+#### Laboratório AWS S3
 
 ![Print](Sprint_6/exercicios/Lab_AWS_S3.png)
 
-### Laboratório AWS Athena
+#### Laboratório AWS Athena
 
 ![Print](Sprint_6/exercicios/Lab_AWS_Athena.png)
 
-### Laboratório AWS Lambda
+#### Laboratório AWS Lambda
 
 ![Print](Sprint_6/exercicios/Lab_AWS_Lambda.png)
 
-### Laboratório AWS - Limpeza de recursos
+#### Laboratório AWS - Limpeza de recursos
 
-## Evidências
+### Sprint 6 - Evidências
 
 [Resumo do curso de AWS Kinesis Analytics](Sprint_6/evidencias/AmazonKinesisAnalytics.md)
 
@@ -305,7 +305,7 @@ Nesta Sprint, foram estudadas as ferramentas e técnicas disponibilizadas pela A
 
 [Resumo do curso Why Analytics for Games](Sprint_6/evidencias/AnalyticsGames.md)
 
-## Certificados
+### Sprint 6 - Certificados
 
 ![Certificado de conclusão do curso de Amazon Kinesis Analytics](Sprint_6/certificados/KinesisAnalytics.png)
 ![Certificado de conclusão do curso de AWS Partner: Data Analytics on AWS - Business](Sprint_6/certificados/DataAnalytics.png)
@@ -323,7 +323,35 @@ Nesta Sprint, foram estudadas as ferramentas e técnicas disponibilizadas pela A
 
 ## Sprint 7 - Plataformas Big Data (Spark, Hadoop)
 
-**Em breve...**
+Exemplo
+
+### Sprint 7 - Exercícios
+
+#### Tarefa 1 - Python com Pandas e Numpy
+
+Documentos
+
+#### Tarefa 2 - Apache Spark - Contador de Palavras
+
+Documentos
+
+#### Laboratório - AWS Glue
+
+Documentos
+
+#### Desafio - Parte I - ETL
+
+Documentos
+
+### Sprint 7 - Evidências
+
+[Resumo do curso de Hadoop](evidencias/Hadoop.md)
+[Resumo do curso Formação Spark com Pyspark](evidencias/Spark.md)
+
+### Sprint 7 - Certificados
+
+![Learn by Example: Hadoop, Map Reduce for Big Data problems](certificados/Hadoop.png)
+![Formação Spark com Pyspark: O Curso Completo](certificados/Spark.png)
 
 ## Sprint 8 -  Apache Spark
 
