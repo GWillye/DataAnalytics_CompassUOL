@@ -10,17 +10,13 @@ Não tivemos exercícios nesta Sprint
 
 [Resumo do curso de AWS Partner: Sales Accreditation](https://gabrielwillye.notion.site/AWS-Sales-Accreditation-498f1ef430a3482ab7c039a0b80d4f28?pvs=4)
 
-[Resumo do curso de AWS Partner: Accreditation](https://gabrielwillye.notion.site/AWS-Accreditation-afbd292cebef4674a537d4b0db70f919?pvs=4)
-
-[Resumo do curso de AWS Partner: Cloud Economics Accreditation](https://gabrielwillye.notion.site/AWS-Cloud-Economics-Accreditaion-365d5273eaf6475fbbfd2bcec47de53a?pvs=4)
-
 ## Certificados
 
 ![Selo do curso de AWS Partner: Sales Accreditation](certificados/Sales.png)
-![Selo do curso de AWS Cloud Quest: Cloud Practitioner](certificados/CloudQuest.png)
-![Selo do curso de AWS Partner: Accreditation](certificados/Accreditation.png)
-![Selo do curso de AWS Partner: Cloud Economics Accreditation](certificados/Cloud.png)
-![Selo do curso Exam Prep: AWS Certified Cloud Practitioner](certificados/ExamPrep.png)
+![Certificado do curso de AWS Cloud Quest: Cloud Practitioner](certificados/CloudQuest.png)
+![Certificado do curso de AWS Partner: Accreditation](certificados/Accreditation.png)
+![Selo do curso de AWS Partner: Cloud Economics Accreditation](certificados/SeloCloud.png)
+![Certificado do curso Exam Prep: AWS Certified Cloud Practitioner](certificados/ExamPrep.png)
 
 ## D&A - AWS [Compass.UOL](https://compass.uol/pt/home/?utm_source=google-ads&utm_medium=ppc&utm_campaign=compasso-uol-institucional&utm_term=compass+uol): Sobre mim
 
