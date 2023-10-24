@@ -1,28 +1,45 @@
 # Sprint 7 - Plataformas Big Data (Spark, Hadoop)
 
-Exemplo
+Nesta Sprint, foi iniciado o desenvolvimento do Desafio Final, além de se estudar e entender os conceitos por trás do HDSF, ou Hadoop Distributed File System, além de conhecer e entender o funcionamento prático do Spar, uma das ferramentas mais poderosas no processamento e transformação de dados.
 
 ## Sprint 7 - Exercícios
 
 ### Tarefa 1 - Python com Pandas e Numpy
 
-Documentos
+Os códigos foram executados em .ipynb, em um Notebook no Jupyter Notebooks. Os códigos e respostas podem ser acessados [clicando aqui](exercicios/Exercício-1.ipynb).
 
 ### Tarefa 2 - Apache Spark - Contador de Palavras
 
-Documentos
+O Exercício solicita que seja criado um container com a imagem jupyter/spark. Este container então deve levantar um notebook Jupyter e executar, utilizando docker exec, um algoritmo no pyspark que leia a quantidade de palavras iguais no README.md deste repositório.
+O comando utilizado para criar o container foi:
+**sudo docker run -it -p 8888:8888 --name jupyter_001 jupyter/all-spark-notebook**
+Os prints da execução do Jupyter em funcionamento:
+![Print 1](exercicios/Print1_Ex2.png)
+![Print 2](exercicios/Print2_Ex2.png)
+O log final pode ser visto no documento abaixo:
+
+[Log_Exercício2.txt](exercicios/Log_Exercício2.txt)
 
 ### Laboratório - AWS Glue
 
-Documentos
+O print de conclusão deste exercício está disponível logo abaixo:
+
+![Print](exercicios/AWSGlue.png)
+
+[Script do Job](/exercicios/Script_Job.txt)
 
 ### Desafio - Parte I - ETL
 
-Documentos
+O script em Python para subir os arquivos [movies.csv](exercicios/movies.csv) e [series.csv](exercicios/series.csv) pode ser acessado [aqui](exercicios/Script.py).
+
+O [Dockerfile](exercicios/Dockerfile) do container.
+
+![Print dos arquivos CSV no S3](exercicios/Desafio.png)
 
 ## Sprint 7 - Evidências
 
 [Resumo do curso de Hadoop](evidencias/Hadoop.md)
+
 [Resumo do curso Formação Spark com Pyspark](evidencias/Spark.md)
 
 ## Sprint 7 - Certificados
