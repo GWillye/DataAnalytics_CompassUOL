@@ -1,42 +1,52 @@
+# Sprint 4 - Paradigma Funcional(Python) e Containers
 
-# Instruções
+Neste Sprint, aprendemos formas de como utilizar a Programação Funcional, um paradigma muito utilizado, e Docker, uma tecnologia para administrar containers (Containers são projetos que permitem criar um ambiente de desenvolvimento isolado e compartilhar este ambiente com outras pessoas). Além disso, estudamos tecnologias e métodos estatísticos, que juntos do Python, formam um conjunto extremamente útil e otimizado para a área de Data & Analytics.
 
-Neste arquivo você irá apresentar suas entregas da Sprint corrente. Observe que existem 4 diretórios no exemplo: **exercícios**, **certificados** e **evidências**.
+## Exercícios
 
- - O diretório **exercícios** corresponde ao local onde você irá adicionar o código-fonte das atividades de codificação da Sprint, quando houver.
- - O diretório **evidências** você pode utilizar para adicionar imagens demonstrando a execução/resultados de atividades, quando necessário.
- - O diretório **certificados** é o local onde você irá armazenar os certificados dos cursos solicitados durante a sprint. O nome de cada certificado de corresponder ao título do curso.
+### Programação Funcional
 
-Utilize o arquivo README.md da Sprint para organizar todas as suas entregas. Faça referência aos arquivos de código-fonte. Evite colocar código diretamente no Markdown pois dificulta nossa avaliação.
+[Exercício 1](exercicios/ex1.py)
 
+[Exercício 2](exercicios/ex2.py)
 
-# Exercícios
+[Exercício 3](exercicios/ex3.py)
 
+[Exercício 4](exercicios/ex4.py)
 
-1. ...
-[Resposta Ex1.](exercicios/ex1.txt)
+[Exercício 5](exercicios/ex5.py)
 
+### Exercício Docker
 
-2. ...
-[Resposta Ex2.](exercicios/ex2.txt)
+[Desafio Docker](exercicios/DesafioDocker/)
 
+## Evidências
 
+[Link do resumo do curso de Docker](https://gabrielwillye.notion.site/Docker-4beb4a3cf3374fa99f6cd06bcee3531c?pvs=4)
 
+[Link do resumo do curso de Estatística Descritiva com Python](https://gabrielwillye.notion.site/Estat-stica-Descritiva-com-Python-ee1d1dae1abe4696bb1473b55a75aaad?pvs=4)
 
-# Evidências
+[Caderno de Exercícios - Curso de Estatistica](evidencias/Estatistica.ipynb)
 
+## Certificados
 
-Ao executar o código do exercício ... observei que ... conforme podemos ver na imagem a seguir:
+![Certificado do curso de Estatística Descritiva em Python](certificados/EstDescPy.jpg)
+![Certificado do curso de Docker e Kubernetes](certificados/Docker.jpg)
 
+## D&A - AWS [Compass.UOL](https://compass.uol/pt/home/?utm_source=google-ads&utm_medium=ppc&utm_campaign=compasso-uol-institucional&utm_term=compass+uol): Sobre mim
 
-![Evidencia 1](evidencias/sample.webp)
+**Olá, meu nome é Gabriel Willye**
+**🏡Cidade: [Campo Grande/MS](https://www.google.com.br/maps/place/Campo+Grande,+MS/@-20.6258611,-54.8465322,10z/data=!3m1!4b1!4m6!3m5!1s0x9486f3f8b2834447:0xa35a7db8b968e5fd!8m2!3d-20.6281521!4d-54.5218074!16s%2Fg%2F11rgdh3sd7?entry=ttu)**
+**🏫Instituição de ensino: [Universidade Federal de Mato Grosso do Sul (UFMS)](https://www.ufms.br/)**
+**👨‍🎓Curso e semestre atual: Sistemas de Informação - quarto semestre**
 
+### Experiências na área de tecnologia
 
+Estou no momento em meu primeiro emprego formal na área de Tecnologia, como estagiário da Compass UOL.
 
-# Certificados
+Sou animado e extrovertido, fazendo meus projetos e tarefas com muita animação e dedicação. Gosto de ensinar e de coordenar tarefas, me dando muito bem em tarefas com gestão e colaboração entre pessoas. Sou dedicado e amo trabalhos em que posso discorrer, fazer apresentações e demonstrar meus conhecimentos. Acima de tudo, gosto de aprender e ensinar, e acredito que tenho muitas possibilidades para isso ao longo de minha jornada.
 
+### Hobbies
 
-- Certificado do Curso ABC
-![Curso ABC](certificados/sample.png)
-
-
+Meus hobbies principais giram em torno de ouvir músicas (minha playlist no [Spotify](https://open.spotify.com/playlist/60y6pGtZ0K207UEY6QipqZ?si=4da97c4284724c35)), ler livros e estudar conteúdos que não são diretamente relacionados com minha carreira, como filosofia, sociologia, psicologia, teologia e história. Estou estudando inglês e pretendo também aprender russo.
+O restante do meu tempo livre eu normalmente passo envolvido com atividades de minha igreja (sou Adventista do Sétimo Dia), como professor da Escola Sabatina, Sonoplastia e Comunicação, e também instrutor no Clube de Desbravadores de uma classe com crianças de 13 anos.

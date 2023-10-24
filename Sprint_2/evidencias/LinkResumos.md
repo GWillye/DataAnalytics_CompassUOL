@@ -1,0 +1,2 @@
+* [Resumo do curso de SQL para Análise de Dados](https://gabrielwillye.notion.site/SQL-para-An-lise-de-Dados-c3292e791c4c422a85b7be54c7c4f1b6?pvs=4) 
+* [Resumo do curso de Big Data](https://gabrielwillye.notion.site/Fundamentos-de-Big-Data-79a06f2c95214628a5e1a884cb6ce161?pvs=4)

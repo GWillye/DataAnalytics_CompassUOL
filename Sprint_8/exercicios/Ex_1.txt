@@ -1,0 +1,1 @@
+O Exercício 1 consistia em criar um cadastro na plataforma do TMDB e criar uma chave para utilizar a API de desenvolvimento deles.
