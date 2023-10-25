@@ -350,7 +350,7 @@ O print de conclusão deste exercício está disponível logo abaixo:
 
 #### Desafio - Parte I - ETL
 
-O script em Python para subir os arquivos [movies.csv](Sprint_7/exercicios/movies.csv) e [series.csv](Sprint_7/exercicios/series.csv) pode ser acessado [aqui](Sprint_7/exercicios/Script.py).
+O script em Python para subir os arquivos movies.csv e series.csv pode ser acessado [aqui](Sprint_7/exercicios/Script.py).
 
 O [Dockerfile](Sprint_7/exercicios/Dockerfile) do container.
 
