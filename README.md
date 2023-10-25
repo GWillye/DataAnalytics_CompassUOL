@@ -369,7 +369,7 @@ O [Dockerfile](Sprint_7/exercicios/Dockerfile) do container.
 
 ## Sprint 8 -  Apache Spark
 
-Inserir resumo da Sprint aqui.
+Na Sprint 8, estivemos estudando um pouco mais sobre como funciona a Engenharia de Dados utilizando o Apache Spark. Foi realizado o prosseguimento no Desafio, além de outros três exercícios para se familiarizar mais com ferramentas e rotinas de um engenheiro de dados.
 
 ### Sprint 8 - Exercícios
 
