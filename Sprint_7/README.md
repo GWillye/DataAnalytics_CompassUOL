@@ -30,11 +30,11 @@ O print de conclusão deste exercício está disponível logo abaixo:
 
 ### Desafio - Parte I - ETL
 
-O script em Python para subir os arquivos movies.csv e series.csv pode ser acessado [aqui](exercicios/Script.py).
+O script em Python para subir os arquivos movies.csv e series.csv pode ser acessado [aqui](../Desafio/etapa-1/Script.py).
 
-O [Dockerfile](exercicios/Dockerfile) do container.
+O [Dockerfile](../Desafio/etapa-1/Dockerfile) do container.
 
-![Print dos arquivos CSV no S3](exercicios/Desafio.png)
+![Print dos arquivos CSV no S3](../Desafio/etapa-1/Desafio.png)
 
 ## Sprint 7 - Evidências
 

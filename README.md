@@ -350,11 +350,11 @@ O print de conclusão deste exercício está disponível logo abaixo:
 
 #### Desafio - Parte I - ETL
 
-O script em Python para subir os arquivos movies.csv e series.csv pode ser acessado [aqui](Sprint_7/exercicios/Script.py).
+O script em Python para subir os arquivos movies.csv e series.csv pode ser acessado [aqui](Desafio/etapa-1/Script.py).
 
-O [Dockerfile](Sprint_7/exercicios/Dockerfile) do container.
+O [Dockerfile](Desafio/etapa-1/Dockerfile) do container.
 
-![Print dos arquivos CSV no S3](Sprint_7/exercicios/Desafio.png)
+![Print dos arquivos CSV no S3](Desafio/etapa-1/Desafio.png)
 
 ### Sprint 7 - Evidências
 
@@ -424,3 +424,17 @@ Nesta Sprint, nenhum curso foi realizado.
 ## Sprint 10 - Visualização de Dados
 
 **Em breve...**
+
+## Desafio
+
+O desafio teve início na Sprint 7 e está sendo desenvolvido até o presente momento.
+
+### Parte I - ETL
+
+O script em Python para subir os arquivos movies.csv e series.csv pode ser acessado [aqui](Desafio/etapa-1/Script.py).
+
+O [Dockerfile](Desafio/etapa-1/Dockerfile) do container.
+
+![Print dos arquivos CSV no S3](Desafio/etapa-1/Desafio.png)
+
+### Parte II - Ingestão de Dados do TMDB
