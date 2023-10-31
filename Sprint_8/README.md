@@ -15,6 +15,17 @@ Os prints de conclusão desta atividade estão disponíveis no diretório [evide
 
 ### Exercício 2 - Desafio Parte 2: Ingestão de dados do TMDB
 
+A parte 2 do Desafio pode ser dividida em 5 partes:
+
+1. Ler os dados de movies.csv e series.csv e salvá-los em JSON com no máximo 10 MB de tamanho
+2. Tratar os dados dos arquivos json gerados
+3. Preencher os dados 'NULL' dos arquivos com informações coletadas usando a API do TMDB
+4. Salvar os arquivos atualizados em JSON, com 100 registros cada, no S3
+5. Transformar esta função em uma camada do AWS Lambda
+
+A conclusão dos primeiros quatro passos está disponível no seguinte notebook: [Notebook do Desafio](../Desafio/etapa-2/Desafio-2.ipynb).
+A conclusão do último passo pode ser averiguada [neste print](../Desafio/etapa-2/print_Lambda.png).
+
 ### Exercício 3 - Geração de massa de dados
 
 O Exercício 3 começava com 2 aquecimentos. O primeiro exigia a criação de uma lista com 250 números aleatórios entre 1 a 1000. Após isso, devia se utilizar a função *reverse()* e imprimir a lista. O segundo solicitava a criação de uma lista com 20 animais, a ordenação da mesma em ordem alfabética e sua escrita em um arquivo então se devia imprimir o resultado e salvar em um arquivo csv.
