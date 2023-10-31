@@ -40,6 +40,28 @@ O Exercício 3, após o aquecimento, solicitava a instalação da biblioteca *na
 
 ### Exercício 4 - Apache Spark
 
+O exercício 4 envolvia em desenvolver scripts utilizando o txt nomes aleatorios, gerado no Exercício 3. Os scripts criados estão abaixo:
+
+[Parte 1](exercicios/Ex4_1.py)
+
+[Parte 2](exercicios/Ex4_2.py)
+
+[Parte 3](exercicios/Ex4_3.py)
+
+[Parte 4](exercicios/Ex4_4.py)
+
+[Parte 5](exercicios/Ex4_5.py)
+
+[Parte 6](exercicios/Ex4_6.py)
+
+[Parte 7](exercicios/Ex4_7.py)
+
+[Parte 8](exercicios/Ex4_8.py)
+
+[Parte 9](exercicios/Ex4_9.py)
+
+[Parte 10](exercicios/Ex4_10.py)
+
 ## Sprint 8 - Evidências
 
 As evidências de conclusão dos exercícios foram todas citadas na aba acima.
