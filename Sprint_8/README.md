@@ -23,7 +23,7 @@ A parte 2 do Desafio pode ser dividida em 5 partes:
 4. Salvar os arquivos atualizados em JSON, com 100 registros cada, no S3
 5. Transformar esta função em uma camada do AWS Lambda
 
-A conclusão dos primeiros quatro passos está disponível no seguinte notebook: [Notebook do Desafio](../Desafio/etapa-2/Desafio-2.ipynb).
+A conclusão dos primeiros quatro passos está disponível no seguinte script: [Script do Desafio](../Desafio/etapa-2/Desafio-2.py).
 A conclusão do último passo pode ser averiguada [neste print](../Desafio/etapa-2/print_Lambda.png).
 
 ### Exercício 3 - Geração de massa de dados
