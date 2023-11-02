@@ -6,9 +6,9 @@ O desafio teve início na Sprint 7 e está sendo desenvolvido até o presente mo
 
 O script em Python para subir os arquivos movies.csv e series.csv pode ser acessado [aqui](Desafio/etapa-1/Script.py).
 
-O [Dockerfile](Desafio/etapa-1/Dockerfile) do container.
+O [Dockerfile](etapa-1/Dockerfile) do container.
 
-![Print dos arquivos CSV no S3](Desafio/etapa-1/Desafio.png)
+![Print dos arquivos CSV no S3](etapa-1/Desafio.png)
 
 ## Parte II - Ingestão de Dados do TMDB
 
