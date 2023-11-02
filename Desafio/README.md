@@ -21,4 +21,4 @@ A parte 2 do Desafio pode ser dividida em 5 partes:
 5. Transformar esta função em uma camada do AWS Lambda
 
 A conclusão dos primeiros quatro passos está disponível no seguinte script: [Script do Desafio](etapa-2/Desafio-2.py).
-A conclusão do último passo pode ser averiguada [neste print](etapa-2/print_Lambda.png).
+Não consegui estar concluindo o último passo.
