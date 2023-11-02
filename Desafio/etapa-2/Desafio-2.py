@@ -133,8 +133,6 @@ print("Arquivos .json configurados e transferidos para a pasta 'JSON/'.")
 
 # Quarto passo: Ler os arquivos JSON e preencher com as informações encontradas na API do TMDB
 
-# Preencher dados de filmes de comédia
-
 api_key = 'f905807b2900febaccfb008c16388168'
 
 def get_tmdb_data_movie(movie_id):
