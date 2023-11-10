@@ -30,4 +30,5 @@ Nesta etapa, seria necessário criar um script que pudesse se conectar a API, le
 
 ### Parte 2 - Modelagem de dados da Refined
 
-A segunda parte exigia a modelagem dos dados da Refined, determinando quais são as perguntas que eu me proponho a responder e definindo como estes dados serão coletados, preparando a Refined na próxima parte com os dados que serão utilizados na hora de montar um dashboard.
+Nesta etapa, criou-se um modelo dimensional para a Refined, organizando os dados das tabelas movies.csv e series.csv. O modelo dimensional está disponível no formato SQL no arquivo [modeloDimensional.sql](etapa-3/modeloDimensional.sql).
+O Script para execução deste modelo e criação do Dataframe da Refined foi executado no AWS Glue, mas sem sucesso até o presente momento.

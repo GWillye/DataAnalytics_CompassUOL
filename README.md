@@ -506,4 +506,13 @@ A conclusão do último passo pode ser averiguada [neste print](/Desafio/etapa-2
 
 ### Parte III - Processamento da Trusted e Refined
 
-Em desenvolvimento...
+## Parte III - Processamento da Trusted e Refined
+
+### Parte 1 - Processamento da Trusted
+Nesta etapa, seria necessário criar um script que pudesse se conectar a API, ler os arquivos .json gerados e preencher com os dados que faltam. Porém, esta etapa foi feita na parte anterior, o que acelerou o desenvolvimento nesta. Na parte 1, foi desenvolvido um script em Python chamado [ScriptJsonToParquet](Desafio/etapa-3/ScriptJsonToParquet.py) que converteu os arquivos com 100 registros .json para o formato .parquet. Após isso, foi criado um script em Python chamado [ScriptSubirS3](Desafio/etapa-3/ScriptSubirS3.py) que subiu os arquivos para o S3 na pasta 'compass-uol-desafio/'. Após isso, se utilizou um segundo script Python chamado [ScriptMoverParquet](Desafio/etapa-3/ScriptMoverParquet.py) para mover os arquivos .parquet para uma subpasta chamada 'trusted/'.
+
+### Parte 2 - Modelagem de dados da Refined
+
+Nesta etapa, criou-se um modelo dimensional para a Refined, organizando os dados das tabelas movies.csv e series.csv. O modelo dimensional está disponível no formato SQL no arquivo [modeloDimensional.sql](Desafio/etapa-3/modeloDimensional.sql).
+O Script para execução deste modelo e criação do Dataframe da Refined foi executado no AWS Glue, mas sem sucesso até o presente momento.
+
