@@ -22,3 +22,12 @@ A parte 2 do Desafio pode ser dividida em 5 partes:
 
 A conclusão dos primeiros quatro passos está disponível no seguinte script: [Script do Desafio](etapa-2/Desafio-2.py).
 Não consegui estar concluindo o último passo.
+
+## Parte III - Processamento da Trusted e Refined
+
+### Parte 1 - Processamento da Trusted
+Nesta etapa, seria necessário criar um script que pudesse se conectar a API, ler os arquivos .json gerados e preencher com os dados que faltam. Porém, esta etapa foi feita na parte anterior, o que acelerou o desenvolvimento nesta. Na parte 1, foi desenvolvido um script em Python chamado [ScriptJsonToParquet](etapa-3/ScriptJsonToParquet.py) que converteu os arquivos com 100 registros .json para o formato .parquet. Após isso, foi criado um script em Python chamado [ScriptSubirS3](etapa-3/ScriptSubirS3.py) que subiu os arquivos para o S3 na pasta 'compass-uol-desafio/'. Após isso, se utilizou um segundo script Python chamado [ScriptMoverParquet](etapa-3/ScriptMoverParquet.py) para mover os arquivos .parquet para uma subpasta chamada 'trusted/'.
+
+### Parte 2 - Modelagem de dados da Refined
+
+A segunda parte exigia a modelagem dos dados da Refined, determinando quais são as perguntas que eu me proponho a responder e definindo como estes dados serão coletados, preparando a Refined na próxima parte com os dados que serão utilizados na hora de montar um dashboard.

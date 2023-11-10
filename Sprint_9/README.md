@@ -4,15 +4,20 @@ Exemplo
 
 ## Sprint 9 - Exercícios
 
-Exemplo
+### Tarefa 1 - Modelagem Relacional - Normalização
+
+Nesta tarefa, era concedido o arquivo [concessionaria.sqlite](evidencias/concessionaria.sqlite), e o objetivo era transformar esta tabela existente no arquivo em um modelo relacional normalizado. Para isto, foi utilizado o [ScriptConvert.py](exercicios/ScriptConvert.py), que converteu o arquivo [concessionaria.sqlite](evidencias/concessionaria.sqlite) para o arquivo [concessionaria.csv](exercicios/concessionaria.csv), facilitando obter as informações e construir o dump normalizado.
+O Dump normalizado pode ser acessado está salvo no arquivo [concessionaria.sql](exercicios/concessionaria.sql).
+
+### Tarefa 2 - Modelagem Dimensional - Criação de Modelo
 
 ## Sprint 9 - Evidências
 
 [Resumo do curso Exemplo](Exemplo)
 
-## Sprint 9 - Certificados
+## Sprint 9 - Certificadosz
 
-![Exemplo](certificados/Exemplo)
+Nesta Sprint, nenhum certificado foi obtido.
 
 ## D&A - AWS [Compass.UOL](https://compass.uol/pt/home/?utm_source=google-ads&utm_medium=ppc&utm_campaign=compasso-uol-institucional&utm_term=compass+uol): Sobre mim
 

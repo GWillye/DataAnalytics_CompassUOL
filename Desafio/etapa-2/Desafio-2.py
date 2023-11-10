@@ -6,6 +6,7 @@ import json
 import pandas as pd
 import os
 import requests
+import boto3
 
 # Realizar leitura dos dados dos CSVs
 
