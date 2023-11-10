@@ -1,4 +1,4 @@
--- Tabelas de Dimensões
+-- TABLE
 CREATE TABLE DimCarro (
     idCarro INTEGER PRIMARY KEY,
     kmCarro INTEGER,
@@ -7,37 +7,21 @@ CREATE TABLE DimCarro (
     modeloCarro TEXT,
     anoCarro INTEGER,
     idcombustivel INTEGER,
-    FOREIGN KEY (idcombustivel) REFERENCES Combustivel(idcombustivel)
+    FOREIGN KEY (idcombustivel) REFERENCES DimCombustivel(idcombustivel)
 );
-
 CREATE TABLE DimCliente (
     idCliente INTEGER,
-    idEndereco INTEGER,
     nomeCliente TEXT,
-    FOREIGN KEY (idEndereco) REFERENCES DimEndereco(idEndereco)
+    cidadeCliente TEXT,
+    estadoCliente TEXT,
+    paisCliente TEXT
 );
-
 CREATE TABLE DimCombustivel (
-    idcombustivel INTEGER PRIMARY KEY,
+    idcombustivel INTEGER,
     tipoCombustivel TEXT
 );
-
-CREATE TABLE DimVendedor (
-    idVendedor INTEGER PRIMARY KEY,
-    nomeVendedor TEXT,
-    sexoVendedor INTEGER,
-    estadoVendedor TEXT
-);
-
-CREATE TABLE DimEndereco (
-    idEndereco INTEGER PRIMARY KEY,
-    paisCliente TEXT,
-    estadoCliente TEXT,
-    cidadeCliente TEXT
-);
-
--- Tabela de Fatos
-CREATE TABLE FatoLocacao (
+CREATE TABLE demo (ID integer primary key, Name varchar(20), Hint text );
+CREATE TABLE FatosLocacao (
     idLocacao INTEGER PRIMARY KEY,
     idCliente INTEGER,
     idCarro INTEGER,
@@ -52,9 +36,14 @@ CREATE TABLE FatoLocacao (
     FOREIGN KEY (idCarro) REFERENCES DimCarro(idCarro),
     FOREIGN KEY (idVendedor) REFERENCES DimVendedor(idVendedor)
 );
+CREATE TABLE DimVendedor (
+    idVendedor INTEGER ,
+    nomeVendedor TEXT,
+    sexoVendedor INTEGER,
+    estadoVendedor TEXT
+);
 
-
--- Inserir dados na tabela Combustivel
+-- Inserir dados na tabela DimCombustivel
 INSERT INTO DimCombustivel (idcombustivel, tipoCombustivel)
 VALUES
     (1, 'Gasolina'),
@@ -62,36 +51,21 @@ VALUES
     (3, 'Flex'),
     (4, 'Diesel');
 
--- Inserir dados na tabela DimEndereco
-INSERT INTO DimEndereco (idEndereco, paisCliente, estadoCliente, cidadeCliente)
-VALUES
-    (1, 'Brasil', 'São Paulo', 'São Paulo'),
-    (2, 'Brasil', 'Rio de Janeiro', 'Rio de Janeiro'),
-    (3, 'Brasil', 'Rio de Janeiro', 'Rio de Janeiro'),
-    (4, 'Brasil', 'Manaus', 'Amazonas'),
-    (5, 'Brasil', 'Belo Horizonte', 'Minas Gerais'),
-    (6, 'Brasil', 'Rio Branco', 'Acre'),
-    (7, 'Brasil', 'Macapá', 'Amapá'),
-    (8, 'Brasil', 'Porto Alegre', 'Rio Grande do Sul'),
-    (9, 'Brasil', 'Eusébio', 'Ceará'),
-    (10, 'Brasil', 'Campo Grande', 'Mato Grosso do Sul');
-
 -- Inserir dados na tabela DimCliente
-INSERT INTO DimCliente (idCliente, idEndereco, nomeCliente)
+INSERT INTO DimCliente (idCliente, nomeCliente, cidadeCliente, estadoCliente, paisCliente)
 VALUES
-    (2, 1, 'Cliente dois'),
-    (3, 2, 'Cliente tres'),
-    (4, 3, 'Cliente quatro'),
-    (5, 4, 'Cliente cinco'),
-    (6, 5, 'Cliente seis'),
-    (10, 6, 'Cliente dez'),
-    (20, 7, 'Cliente vinte'),
-    (22, 8, 'Cliente vinte e dois'),
-    (23, 9, 'Cliente vinte e tres'),
-    (26, 10, 'Cliente vinte e seis');
+    (2, 'Cliente dois', 'São Paulo', 'São Paulo', 'Brasil'),
+    (3, 'Cliente tres', 'Rio de Janeiro', 'Rio de Janeiro', 'Brasil'),
+    (4, 'Cliente quatro', 'Rio de Janeiro', 'Rio de Janeiro', 'Brasil'),
+    (5, 'Cliente cinco', 'Manaus', 'Amazonas', 'Brasil'),
+    (6, 'Cliente seis', 'Belo Horizonte', 'Minas Gerais', 'Brasil'),
+    (10, 'Cliente dez', 'Rio Branco', 'Acre', 'Brasil'),
+    (20, 'Cliente vinte', 'Macapá', 'Amapá', 'Brasil'),
+    (22, 'Cliente vinte e dois', 'Porto Alegre', 'Rio Grande do Sul', 'Brasil'),
+    (23, 'Cliente vinte e tres', 'Eusébio', 'Ceará', 'Brasil'),
+    (26, 'Cliente vinte e seis', 'Campo Grande', 'Mato Grosso do Sul', 'Brasil');
 
-
--- Inserir dados na tabela Vendedor
+-- Inserir dados na tabela DimVendedor
 INSERT INTO DimVendedor (idVendedor, nomeVendedor, sexoVendedor, estadoVendedor)
 VALUES
     (5, 'Vendedor cinco', 0, 'São Paulo'),
@@ -103,7 +77,7 @@ VALUES
     (31, 'Vendedor trinta e um', 0, 'Ceará'),
     (32, 'Vendedora trinta e dois', 1, 'Mato Grosso do Sul');
 
--- Inserir dados na tabela Carro
+-- Inserir dados na tabela DimCarro
 INSERT INTO DimCarro (idCarro, kmCarro, classiCarro, marcaCarro, modeloCarro, anoCarro, idcombustivel)
 VALUES
     (98, 25412, 'AKJHKN98JY76539', 'Fiat', 'Fiat Uno', 2000, 1),
@@ -117,74 +91,113 @@ VALUES
     (1, 1800, 'AAAKNS8JS76S39', 'Toyota', 'Corolla XEI', 2023, 3),
     (5, 78000, 'MSLUNS1JS76S39', 'Nissan', 'Frontier', 2022, 4);
 
--- Inserir dados na tabela FatoLocacao
-INSERT INTO FatoLocacao (idLocacao, idCliente, idCarro, idVendedor, dataLocacao, horaLocacao, qtdDiaria, vlrDiaria, dataEntrega, horaEntrega)
+-- Inserir dados na tabela FatosLocacao
+INSERT INTO FatosLocacao (idLocacao, idCliente, idCarro, idVendedor, dataLocacao, horaLocacao, qtdDiaria, vlrDiaria, dataEntrega, horaEntrega)
 VALUES
-    (1, 2, 98, 5, 20150110, '10:00', 2, 100, 20150112, '10:00'),
-    (2, 2, 98, 5, 20150210, '12:00', 2, 100, 20150212, '12:00'),
-    (3, 3, 99, 6, 20150213, '12:00', 2, 150, 20150215, '12:00'),
-    (4, 4, 99, 6, 20150215, '13:00', 5, 150, 20150220, '13:00'),
-    (5, 4, 99, 7, 20150302, '14:00', 5, 150, 20150307, '14:00'),
-    (6, 6, 3, 8, 20160302, '14:00', 10, 250, 20160312, '14:00'),
-    (7, 6, 3, 8, 20160802, '14:00', 10, 250, 20160812, '14:00'),
-    (8, 4, 3, 6, 20170102, '18:00', 10, 250, 20170112, '18:00'),
-    (9, 4, 3, 6, 20180102, '18:00', 10, 280, 20180112, '18:00'),
-    (10, 10, 10, 16, 20180302, '18:00', 10, 50, 20180312, '18:00'),
-    (11, 20, 7, 16, 20180401, '11:00', 10, 50, 20180411, '11:00'),
-    (12, 20, 6, 16, 20200401, '11:00', 10, 150, 20200411, '11:00'),
-    (13, 22, 2, 30, 20220501, '8:00', 20, 150, 20220521, '18:00'),
-    (14, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente vinte e dois'),
+    (1, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente dois' AND cidadeCliente = 'São Paulo' AND estadoCliente = 'São Paulo' AND paisCliente = 'Brasil'),
+         (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'Fiat' AND modeloCarro = 'Fiat Uno' AND anoCarro = 2000),
+         (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedor cinco' AND estadoVendedor = 'São Paulo'),
+         20150110, '10:00', 2, 100, 20150112, '10:00'),
+    (2, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente dois' AND cidadeCliente = 'São Paulo' AND estadoCliente = 'São Paulo' AND paisCliente = 'Brasil'),
+         (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'Fiat' AND modeloCarro = 'Fiat Uno' AND anoCarro = 2000),
+         (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedor cinco' AND estadoVendedor = 'São Paulo'),
+         20150210, '12:00', 2, 100, 20150212, '12:00'),
+    (3, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente tres' AND cidadeCliente = 'Rio de Janeiro' AND estadoCliente = 'Rio de Janeiro' AND paisCliente = 'Brasil'),
+         (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'Fiat' AND modeloCarro = 'Fiat Palio' AND anoCarro = 2010),
+         (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedora seis' AND estadoVendedor = 'São Paulo'),
+         20150213, '12:00', 2, 150, 20150215, '12:00'),
+    (4, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente quatro' AND cidadeCliente = 'Rio de Janeiro' AND estadoCliente = 'Rio de Janeiro' AND paisCliente = 'Brasil'),
+         (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'Fiat' AND modeloCarro = 'Fiat Palio' AND anoCarro = 2010),
+         (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedora seis' AND estadoVendedor = 'São Paulo'),
+         20150215, '13:00', 5, 150, 20150220, '13:00'),
+    (5, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente quatro' AND cidadeCliente = 'Rio de Janeiro' AND estadoCliente = 'Rio de Janeiro' AND paisCliente = 'Brasil'),
+         (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'Fiat' AND modeloCarro = 'Fiat Palio' AND anoCarro = 2010),
+         (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedora sete' AND estadoVendedor = 'Rio de Janeiro'),
+         20150302, '14:00', 5, 150, 20150307, '14:00'),
+    (6, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente seis' AND cidadeCliente = 'Belo Horizonte' AND estadoCliente = 'Minas Gerais' AND paisCliente = 'Brasil'),
+         (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'VW' AND modeloCarro = 'Fusca 78' AND anoCarro = 1978),
+         (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedora oito' AND estadoVendedor = 'Minas Gerais'),
+         20160302, '14:00', 10, 250, 20160312, '14:00'),
+    (7, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente seis' AND cidadeCliente = 'Belo Horizonte' AND estadoCliente = 'Minas Gerais' AND paisCliente = 'Brasil'),
+         (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'VW' AND modeloCarro = 'Fusca 78' AND anoCarro = 1978),
+         (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedora oito' AND estadoVendedor = 'Minas Gerais'),
+         20160802, '14:00', 10, 250, 20160812, '14:00'),
+    (8, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente quatro' AND cidadeCliente = 'Rio de Janeiro' AND estadoCliente = 'Rio de Janeiro' AND paisCliente = 'Brasil'),
+         (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'VW' AND modeloCarro = 'Fusca 78' AND anoCarro = 1978),
+         (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedora seis' AND estadoVendedor = 'São Paulo'),
+         20170102, '18:00', 10, 250, 20170112, '18:00'),
+    (9, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente quatro' AND cidadeCliente = 'Rio de Janeiro' AND estadoCliente = 'Rio de Janeiro' AND paisCliente = 'Brasil'),
+         (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'VW' AND modeloCarro = 'Fusca 78' AND anoCarro = 1978),
+         (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedora seis' AND estadoVendedor = 'São Paulo'),
+         20180102, '18:00', 10, 280, 20180112, '18:00');
+-- Inserir dados adicionais na tabela FatosLocacao
+INSERT INTO FatosLocacao (idLocacao, idCliente, idCarro, idVendedor, dataLocacao, horaLocacao, qtdDiaria, vlrDiaria, dataEntrega, horaEntrega)
+VALUES
+    (10, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente dez' AND cidadeCliente = 'Rio Branco' AND estadoCliente = 'Acre' AND paisCliente = 'Brasil'),
+         (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'Fiat' AND modeloCarro = 'Fiat 147' AND anoCarro = 1996),
+         (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedor dezesseis' AND estadoVendedor = 'Amazonas'),
+         20180302, '18:00', 10, 50, 20180312, '18:00'),
+    (11, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente vinte' AND cidadeCliente = 'Macapá' AND estadoCliente = 'Amapá' AND paisCliente = 'Brasil'),
+         (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'Fiat' AND modeloCarro = 'Fiat 147' AND anoCarro = 1996),
+         (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedor dezesseis' AND estadoVendedor = 'Amazonas'),
+         20180401, '11:00', 10, 50, 20180411, '11:00'),
+    (12, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente vinte' AND cidadeCliente = 'Macapá' AND estadoCliente = 'Amapá' AND paisCliente = 'Brasil'),
+         (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'Nissan' AND modeloCarro = 'Versa' AND anoCarro = 2019),
+         (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedor dezesseis' AND estadoVendedor = 'Amazonas'),
+         20200401, '11:00', 10, 150, 20200411, '11:00'),
+    (13, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente vinte e dois' AND cidadeCliente = 'Porto Alegre' AND estadoCliente = 'Rio Grande do Sul' AND paisCliente = 'Brasil'),
+         (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'Nissan' AND modeloCarro = 'Versa' AND anoCarro = 2019),
+         (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedor trinta' AND estadoVendedor = 'Rio Grande do Sul'),
+         20220501, '8:00', 20, 150, 20220521, '18:00'),
+    (14, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente vinte e dois' AND cidadeCliente = 'Porto Alegre' AND estadoCliente = 'Rio Grande do Sul' AND paisCliente = 'Brasil'),
          (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'Nissan' AND modeloCarro = 'Versa' AND anoCarro = 2019),
          (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedor trinta' AND estadoVendedor = 'Rio Grande do Sul'),
          20220601, '8:00', 20, 150, 20220621, '18:00'),
-    (15, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente vinte e dois'),
+    (15, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente vinte e dois' AND cidadeCliente = 'Porto Alegre' AND estadoCliente = 'Rio Grande do Sul' AND paisCliente = 'Brasil'),
          (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'Nissan' AND modeloCarro = 'Versa' AND anoCarro = 2019),
          (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedor trinta' AND estadoVendedor = 'Rio Grande do Sul'),
          20220701, '8:00', 20, 150, 20220721, '18:00'),
-    (16, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente vinte e dois'),
+    (16, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente vinte e dois' AND cidadeCliente = 'Porto Alegre' AND estadoCliente = 'Rio Grande do Sul' AND paisCliente = 'Brasil'),
          (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'Nissan' AND modeloCarro = 'Versa' AND anoCarro = 2019),
          (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedor trinta' AND estadoVendedor = 'Rio Grande do Sul'),
          20220801, '8:00', 20, 150, 20220721, '18:00'),
-    (17, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente vinte e tres'),
+    (17, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente vinte e tres' AND cidadeCliente = 'Eusébio' AND estadoCliente = 'Ceará' AND paisCliente = 'Brasil'),
          (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'Nissan' AND modeloCarro = 'Versa' AND anoCarro = 2020),
          (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedor trinta e um' AND estadoVendedor = 'Ceará'),
          20220901, '8:00', 20, 150, 20220921, '18:00'),
-    (18, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente vinte e tres'),
+    (18, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente vinte e tres' AND cidadeCliente = 'Eusébio' AND estadoCliente = 'Ceará' AND paisCliente = 'Brasil'),
          (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'Nissan' AND modeloCarro = 'Versa' AND anoCarro = 2020),
          (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedor trinta e um' AND estadoVendedor = 'Ceará'),
          20221001, '8:00', 20, 150, 20221021, '18:00'),
-    (19, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente vinte e tres'),
+    (19, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente vinte e tres' AND cidadeCliente = 'Eusébio' AND estadoCliente = 'Ceará' AND paisCliente = 'Brasil'),
          (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'Nissan' AND modeloCarro = 'Versa' AND anoCarro = 2020),
          (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedor trinta e um' AND estadoVendedor = 'Ceará'),
          20221101, '8:00', 20, 150, 20221121, '18:00'),
-    (20, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente cinco'),
+    (20, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente cinco' AND cidadeCliente = 'Manaus' AND estadoCliente = 'Amazonas' AND paisCliente = 'Brasil'),
          (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'Toyota' AND modeloCarro = 'Corolla XEI' AND anoCarro = 2023),
          (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedor dezesseis' AND estadoVendedor = 'Amazonas'),
          20230102, '18:00', 10, 880, 20230112, '18:00'),
-    (21, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente cinco'),
+    (21, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente cinco' AND cidadeCliente = 'Manaus' AND estadoCliente = 'Amazonas' AND paisCliente = 'Brasil'),
          (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'Toyota' AND modeloCarro = 'Corolla XEI' AND anoCarro = 2023),
          (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedor dezesseis' AND estadoVendedor = 'Amazonas'),
          20230115, '18:00', 10, 880, 20230125, '18:00'),
-    (22, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente vinte e seis'),
+    (22, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente vinte e seis' AND cidadeCliente = 'Campo Grande' AND estadoCliente = 'Mato Grosso do Sul' AND paisCliente = 'Brasil'),
          (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'Nissan' AND modeloCarro = 'Frontier' AND anoCarro = 2022),
          (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedora trinta e dois' AND estadoVendedor = 'Mato Grosso do Sul'),
          20230125, '8:00', 5, 600, 20230130, '18:00'),
-    (23, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente vinte e seis'),
+    (23, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente vinte e seis' AND cidadeCliente = 'Campo Grande' AND estadoCliente = 'Mato Grosso do Sul' AND paisCliente = 'Brasil'),
          (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'Nissan' AND modeloCarro = 'Frontier' AND anoCarro = 2022),
          (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedora trinta e dois' AND estadoVendedor = 'Mato Grosso do Sul'),
          20230131, '8:00', 5, 600, 20230205, '18:00'),
-    (24, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente vinte e seis'),
+    (24, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente vinte e seis' AND cidadeCliente = 'Campo Grande' AND estadoCliente = 'Mato Grosso do Sul' AND paisCliente = 'Brasil'),
          (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'Nissan' AND modeloCarro = 'Frontier' AND anoCarro = 2022),
          (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedora trinta e dois' AND estadoVendedor = 'Mato Grosso do Sul'),
          20230206, '8:00', 5, 600, 20230211, '18:00'),
-    (25,
-     (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente vinte e seis'),
-     (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'Nissan' AND modeloCarro = 'Frontier' AND anoCarro = 2022),
-     (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedora trinta e dois' AND estadoVendedor = 'Mato Grosso do Sul'),
-     20230212, '8:00', 5, 600, 20230217, '18:00'),
-    (26,
-     (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente vinte e seis'),
-     (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'Nissan' AND modeloCarro = 'Frontier' AND anoCarro = 2022),
-     (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedora trinta e dois' AND estadoVendedor = 'Mato Grosso do Sul'),
-     20230218, '8:00', 1, 600, 20230219, '18:00');
-
+    (25, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente vinte e seis' AND cidadeCliente = 'Campo Grande' AND estadoCliente = 'Mato Grosso do Sul' AND paisCliente = 'Brasil'),
+         (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'Nissan' AND modeloCarro = 'Frontier' AND anoCarro = 2022),
+         (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedora trinta e dois' AND estadoVendedor = 'Mato Grosso do Sul'),
+         20230212, '8:00', 5, 600, 20230217, '18:00'),
+    (26, (SELECT idCliente FROM DimCliente WHERE nomeCliente = 'Cliente vinte e seis' AND cidadeCliente = 'Campo Grande' AND estadoCliente = 'Mato Grosso do Sul' AND paisCliente = 'Brasil'),
+         (SELECT idCarro FROM DimCarro WHERE marcaCarro = 'Nissan' AND modeloCarro = 'Frontier' AND anoCarro = 2022),
+         (SELECT idVendedor FROM DimVendedor WHERE nomeVendedor = 'Vendedora trinta e dois' AND estadoVendedor = 'Mato Grosso do Sul'),
+         20230218, '8:00', 1, 600, 20230219, '18:00');
