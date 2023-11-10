@@ -1,8 +1,7 @@
 -- Tabela de Dimensão Ator
 CREATE TABLE DimAtor (
-    idAtor INTEGER PRIMARY KEY,
     generoArtista TEXT,
-    nomeArtista TEXT,
+    nomeArtista TEXT PRIMARY KEY,
     anoNascimento INTEGER,
     anoFalecimento INTEGER,
     profissao TEXT,
@@ -23,10 +22,10 @@ CREATE TABLE DimObra (
 
 -- Tabela de Fatos Personagem
 CREATE TABLE FatoPersonagem (
-    idAtor INTEGER,
+    nomeArtista TEXT,
     idObra TEXT,
     personagem TEXT,
-    PRIMARY KEY (idAtor, idObra),
-    FOREIGN KEY (idAtor) REFERENCES DimAtor(idAtor),
+    PRIMARY KEY (nomeArtista, idObra),
+    FOREIGN KEY (nomeArtista) REFERENCES DimAtor(nomeArtista),
     FOREIGN KEY (idObra) REFERENCES DimObra(id)
 );

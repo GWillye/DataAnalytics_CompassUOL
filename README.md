@@ -516,3 +516,10 @@ Nesta etapa, seria necessário criar um script que pudesse se conectar a API, le
 Nesta etapa, criou-se um modelo dimensional para a Refined, organizando os dados das tabelas movies.csv e series.csv. O modelo dimensional está disponível no formato SQL no arquivo [modeloDimensional.sql](Desafio/etapa-3/modeloDimensional.sql).
 O Script para execução deste modelo e criação do Dataframe da Refined foi executado no AWS Glue, mas sem sucesso até o presente momento.
 
+### Parte 3 - Processamento da Refined
+
+Para conseguir criar arquivos correspondentes aos dados desejados como tabelas na Refined, após definir o modelo, foram executados 3 jobs no AWS Glue para filtrar os dados da Trusted e os salvar em arquivos .parquet com todos os dados desejados.
+
+- Para criar a tabela DimAtor foi utilizado o Job [DimAtor.py](Desafio/etapa-3/DimAtor.py);
+- Para criar a tabela DimObra foi utilizado o Job [DimObra.py](Desafio/etapa-3/DimObra.py);
+- Para criar a tabela FatosPersonagem foi utilizado o Job [FatosPersonagem.py](Desafio/etapa-3/FatosPersonagem.py);
