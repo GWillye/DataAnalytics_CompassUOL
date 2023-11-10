@@ -450,9 +450,30 @@ As evidências de conclusão dos exercícios foram todas citadas na aba acima.
 
 Nesta Sprint, nenhum curso foi realizado.
 
-## Sprint 9 - Apache Spark
+## Sprint 9 -  Apache Spark
 
-**Em breve...**
+Nesta Sprint, foram realizados exercícios envolvendo MOdelagem Relacional e Modelagem Dimensional, além de dar continuidade no Desafio, criando as camadas Trusted e Refined.
+
+### Sprint 9 - Exercícios
+
+#### Tarefa 1 - Modelagem Relacional - Normalização
+
+Nesta tarefa, era concedido o arquivo [concessionaria.sqlite](Sprint_9/evidencias/concessionaria.sqlite), e o objetivo era transformar esta tabela existente no arquivo em um modelo relacional normalizado. Para isto, foi utilizado o [ScriptConvert.py](Sprint_9/exercicios/ScriptConvert.py), que converteu o arquivo [concessionaria.sqlite](Sprint_9/evidencias/concessionaria.sqlite) para o arquivo [concessionaria.csv](Sprint_9/exercicios/concessionaria.csv), facilitando obter as informações e construir o dump normalizado.
+O Dump normalizado pode ser acessado está salvo no arquivo [concessionaria.sql](Sprint_9/exercicios/concessionaria.sql).
+
+#### Tarefa 2 - Modelagem Dimensional - Criação de Modelo
+
+Nesta tarefa o banco de dados concessionaria, criado no exercício acima, foi readaptado para o modelo dimensional, organizando as suas tabelas em tabelas de dimensão e transformando a tabela Locação em uma tabela de fatos. O dump está disponível no arquivo [consessionaria_dimensionada.sql](Sprint_9/exercicios/concessionaria_dimensionada.sql).
+
+Os exercícios referentes ao Desafio podem ser encontrados no [ReadMe do Desafio - Parte III](#parte-iii---processamento-da-trusted-e-refined).
+
+### Sprint 9 - Evidências
+
+[Resumo do curso Exemplo](Exemplo)
+
+### Sprint 9 - Certificados
+
+Nesta Sprint, nenhum certificado foi obtido.
 
 ## Sprint 10 - Visualização de Dados
 
@@ -482,3 +503,7 @@ A parte 2 do Desafio pode ser dividida em 5 partes:
 
 A conclusão dos primeiros quatro passos está disponível no seguinte notebook: [Notebook do Desafio](/Desafio/etapa-2/Desafio-2.ipynb).
 A conclusão do último passo pode ser averiguada [neste print](/Desafio/etapa-2/print_Lambda.png).
+
+### Parte III - Processamento da Trusted e Refined
+
+Em desenvolvimento...

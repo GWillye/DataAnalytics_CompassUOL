@@ -1,6 +1,6 @@
 # Sprint 9 -  Apache Spark
 
-Exemplo
+Nesta Sprint, foram realizados exercícios envolvendo MOdelagem Relacional e Modelagem Dimensional, além de dar continuidade no Desafio, criando as camadas Trusted e Refined.
 
 ## Sprint 9 - Exercícios
 
@@ -11,11 +11,15 @@ O Dump normalizado pode ser acessado está salvo no arquivo [concessionaria.sql]
 
 ### Tarefa 2 - Modelagem Dimensional - Criação de Modelo
 
+Nesta tarefa o banco de dados concessionaria, criado no exercício acima, foi readaptado para o modelo dimensional, organizando as suas tabelas em tabelas de dimensão e transformando a tabela Locação em uma tabela de fatos. O dump está disponível no arquivo [consessionaria_dimensionada.sql](exercicios/concessionaria_dimensionada.sql).
+
+Os exercícios referentes ao Desafio podem ser encontrados no [ReadMe do Desafio - Parte III](../Desafio/README.md/#parte-iii---processamento-da-trusted-e-refined).
+
 ## Sprint 9 - Evidências
 
 [Resumo do curso Exemplo](Exemplo)
 
-## Sprint 9 - Certificadosz
+## Sprint 9 - Certificados
 
 Nesta Sprint, nenhum certificado foi obtido.
 
