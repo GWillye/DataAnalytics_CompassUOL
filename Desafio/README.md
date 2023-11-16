@@ -2,7 +2,7 @@
 
 O desafio teve início na Sprint 7 e está sendo desenvolvido até o presente momento.
 
-## Parte I - ETL
+## Etapa I - ETL
 
 O script em Python para subir os arquivos movies.csv e series.csv pode ser acessado [aqui](Desafio/etapa-1/Script.py).
 
@@ -10,7 +10,7 @@ O [Dockerfile](etapa-1/Dockerfile) do container.
 
 ![Print dos arquivos CSV no S3](etapa-1/Desafio.png)
 
-## Parte II - Ingestão de Dados do TMDB
+## Etapa II - Ingestão de Dados do TMDB
 
 A parte 2 do Desafio pode ser dividida em 5 partes:
 
@@ -23,7 +23,7 @@ A parte 2 do Desafio pode ser dividida em 5 partes:
 A conclusão dos primeiros quatro passos está disponível no seguinte script: [Script do Desafio](etapa-2/Desafio-2.py).
 Não consegui estar concluindo o último passo.
 
-## Parte III - Processamento da Trusted e Refined
+## Etapa III - Processamento da Trusted e Refined
 
 ### Parte 1 - Processamento da Trusted
 Nesta etapa, seria necessário criar um script que pudesse se conectar a API, ler os arquivos .json gerados e preencher com os dados que faltam. Porém, esta etapa foi feita na parte anterior, o que acelerou o desenvolvimento nesta. Na parte 1, foi desenvolvido um script em Python chamado [ScriptJsonToParquet](etapa-3/ScriptJsonToParquet.py) que converteu os arquivos com 100 registros .json para o formato .parquet. Após isso, foi criado um script em Python chamado [ScriptSubirS3](etapa-3/ScriptSubirS3.py) que subiu os arquivos para o S3 na pasta 'compass-uol-desafio/'. Após isso, se utilizou um segundo script Python chamado [ScriptMoverParquet](etapa-3/ScriptMoverParquet.py) para mover os arquivos .parquet para uma subpasta chamada 'trusted/'.
@@ -31,7 +31,6 @@ Nesta etapa, seria necessário criar um script que pudesse se conectar a API, le
 ### Parte 2 - Modelagem de dados da Refined
 
 Nesta etapa, criou-se um modelo dimensional para a Refined, organizando os dados das tabelas movies.csv e series.csv. O modelo dimensional está disponível no formato SQL no arquivo [modeloDimensional.sql](etapa-3/modeloDimensional.sql).
-O Script para execução deste modelo e criação do Dataframe da Refined foi executado no AWS Glue, mas sem sucesso até o presente momento.
 
 ### Parte 3 - Processamento da Refined
 
@@ -40,3 +39,22 @@ Para conseguir criar arquivos correspondentes aos dados desejados como tabelas n
 - Para criar a tabela DimAtor foi utilizado o Job [DimAtor.py](etapa-3/DimAtor.py);
 - Para criar a tabela DimObra foi utilizado o Job [DimObra.py](etapa-3/DimObra.py);
 - Para criar a tabela FatosPersonagem foi utilizado o Job [FatosPersonagem.py](etapa-3/FatosPersonagem.py);
+
+### Etapa IV - 
+
+No dia 02 de novembro de 2023, assisti o vídeo [O Fim da Disney](https://www.youtube.com/watch?v=JAg7OQq9vpA) do canal [IMPERA](https://www.youtube.com/@RenatoIMPERA), onde ele comenta sobre a história da Disney, sua ascensão e declínio. O vídeo me impressionou muito por sua qualidade técnica e por toda a busca que foi feita, o que acabou me despertando a curiosidade de pesquisar mais e analisar sobre a influência da Disney no mercado de animações. As perguntas que eu me propus a responder foram:
+
+1. Após o primeiro filme de animação da Disney (Branca de Neve), qual foi a reação do mercado de animações em termos de produções?
+2. Como foi a recepção pública dos filmes em animação em comparação com os outros gêneros de filmes?
+3. As outras empresas de filmes já produziam filmes animados?
+4. A Disney influenciou o mercado de filmes de animações? Como?
+
+Após definir as perguntas e questionamentos, foi iniciado a coleta de dados necessários para o desenvolvimento do Dashboard. O primeiro passo foi criar uma coluna "produtora", para receber as informações das produtoras de filmes e séries de comédia e animação. Após isso, tratar estes dados e prepará-los para a análise. Para fazer isso, conectei a API do TMDB com o arquivo [movies.csv](https://challenger-uol.s3.amazonaws.com/raw/movies.csv), presente na minha [raw](https://challenger-uol.s3.amazonaws.com/raw/) mandei criar uma nova coluna chamada 'produtora' e inserir os dados das produtoras de todos os filmes e salvei o arquivo em minha [trusted](https://challenger-uol.s3.amazonaws.com/trusted/), junto dos arquivos atualizados dos meus Jsons. Após isto, excluí as informações desnecessárias do csv e mandei atualizar meus arquivos Json com os dados dos filmes de animação e criei arquivos em .parquet a partir destes .json. Salvei estes resultados na minha [refined](https://challenger-uol.s3.amazonaws.com/trusted/). 
+
+
+O QUE INSERIR
+Informação de contexto geral: filmes na base, quantos de comedia, quantos de animação, etc etc 
+Posicionamento: para tornar visualmente atraente
+Gráfico pizza/rosca para poucas infos
+Não faça colorido demais; Padrão de cores entre 4 e 5
+Dashboard examples

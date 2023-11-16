@@ -25,7 +25,7 @@ dtype = {
     'anoNascimento': str,  
     'anoFalecimento': str,  
     'profissao': str,
-    'titulosMaisConhecidos': str,
+    'titulosMaisConhecidos': str
 }
 
 movies_df = pd.read_csv('movies.csv', delimiter='|', na_values=['\\N'])
@@ -134,7 +134,7 @@ print("Arquivos .json configurados e transferidos para a pasta 'JSON/'.")
 
 # Quarto passo: Ler os arquivos JSON e preencher com as informações encontradas na API do TMDB
 
-api_key = 'f905807b2900febaccfb008c16388168'
+api_key = ''
 
 def get_tmdb_data_movie(movie_id):
     url = f'https://api.themoviedb.org/3/movie/{movie_id}?api_key={api_key}&language=pt-BR'
