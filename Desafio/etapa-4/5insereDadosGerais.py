@@ -37,12 +37,11 @@ def update_csv_file(file_path):
                     producer_name = production_companies[0].get('name')
                     df.at[index, 'produtora'] = producer_name
 
-    # Salvar o DataFrame resultante em um novo arquivo CSV
-    df.to_csv('animation_movies_finalizados.csv', index=False)
+    df.to_csv('animation_movies.csv', index=False)
 
 
 print("Script iniciado.")
 
-filename = os.path.join('animation_movies_limpos.csv')
+filename = os.path.join('animation_movies_produtora.csv')
 update_csv_file(filename)
 print(f'Arquivo atualizado.')
