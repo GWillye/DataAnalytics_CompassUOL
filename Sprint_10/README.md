@@ -1,18 +1,19 @@
 # Sprint 10 - Visualização de Dados
 
-Exemplo
+Nesta Sprint aprendemos sobre como funciona a visualização de dados para análise, como desenvolver um dashboard e montar uma análise para obter insights. Além disso, por ser a finalização do programa de bolsas, também fiz o curso Segurança em Aplicações Web, entendendo alguns dos princípios de segurança que podem ser observados na internet e que precisamos tomar cuidado com o desenvolvimento de quaisquer aplicações e scripts.
 
 ## Sprint 10 - Exercícios
 
-Exemplo
+Não tivemos exercícios para desenvolver nesta Sprint.
 
 ## Sprint 10 - Evidências
 
-[Resumo do curso Exemplo](Exemplo)
+Todas as evidências do desenvolvimento do Desafio nesta etapa estão presentes na pasta [Desafio/etapa-4/](../Desafio/etapa-4/).
 
 ## Sprint 10 - Certificados
 
-![Exemplo](certificados/Exemplo)
+![Quicksight](certificados/Quicksight.jpg)
+![Segurança em Aplicações Web](certificados/SegApliWeb.jpg)
 
 ## D&A - AWS [Compass.UOL](https://compass.uol/pt/home/?utm_source=google-ads&utm_medium=ppc&utm_campaign=compasso-uol-institucional&utm_term=compass+uol): Sobre mim
 

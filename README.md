@@ -477,7 +477,20 @@ Nesta Sprint, nenhum certificado foi obtido.
 
 ## Sprint 10 - Visualização de Dados
 
-**Em breve...**
+Nesta Sprint aprendemos sobre como funciona a visualização de dados para análise, como desenvolver um dashboard e montar uma análise para obter insights. Além disso, por ser a finalização do programa de bolsas, também fiz o curso Segurança em Aplicações Web, entendendo alguns dos princípios de segurança que podem ser observados na internet e que precisamos tomar cuidado com o desenvolvimento de quaisquer aplicações e scripts.
+
+### Sprint 10 - Exercícios
+
+Não tivemos exercícios para desenvolver nesta Sprint.
+
+### Sprint 10 - Evidências
+
+Todas as evidências do desenvolvimento do Desafio nesta etapa estão presentes na pasta [Desafio/etapa-4/](../Desafio/etapa-4/).
+
+### Sprint 10 - Certificados
+
+![Quicksight](certificados/Quicksight.png)
+![Segurança em Aplicações Web](certificados/SegApliWeb.png)
 
 ## Desafio
 
@@ -523,3 +536,15 @@ Para conseguir criar arquivos correspondentes aos dados desejados como tabelas n
 - Para criar a tabela DimAtor foi utilizado o Job [DimAtor.py](Desafio/etapa-3/DimAtor.py);
 - Para criar a tabela DimObra foi utilizado o Job [DimObra.py](Desafio/etapa-3/DimObra.py);
 - Para criar a tabela FatosPersonagem foi utilizado o Job [FatosPersonagem.py](Desafio/etapa-3/FatosPersonagem.py);
+
+### Etapa IV - Apresentação do Dashboard
+
+No dia 02 de novembro de 2023, assisti o vídeo [O Fim da Disney](https://www.youtube.com/watch?v=JAg7OQq9vpA) do canal [IMPERA](https://www.youtube.com/@RenatoIMPERA), onde ele comenta sobre a história da Disney, sua ascensão e declínio. O vídeo me impressionou muito por sua qualidade técnica e por toda a busca que foi feita, o que acabou me despertando a curiosidade de pesquisar mais e analisar sobre a influência da Disney no mercado de animações. As perguntas que eu me propus a responder foram:
+
+1. Após o primeiro filme de animação da Disney (Branca de Neve), qual foi a reação do mercado de animações em termos de produções?
+2. Como foi a recepção pública dos filmes em animação em comparação com os outros gêneros de filmes?
+3. As outras empresas de filmes já produziam filmes animados?
+4. A Disney influenciou o mercado de filmes de animações? Como?
+
+Após definir as perguntas e questionamentos, foi iniciado a coleta de dados necessários para o desenvolvimento do Dashboard. O primeiro passo foi criar uma coluna "produtora", para receber as informações das produtoras de filmes e séries de comédia e animação. Após isso, tratar estes dados e prepará-los para a análise. Para fazer isso, conectei a API do TMDB com o arquivo [movies.csv](https://challenger-uol.s3.amazonaws.com/raw/movies.csv), presente na minha [raw](https://challenger-uol.s3.amazonaws.com/raw/) mandei criar uma nova coluna chamada 'produtora' e inserir os dados das produtoras de todos os filmes e salvei o arquivo em minha [trusted](https://challenger-uol.s3.amazonaws.com/trusted/), junto dos arquivos atualizados dos meus Jsons. Após isto, excluí as informações desnecessárias do csv e mandei atualizar meus arquivos Json com os dados dos filmes de animação e criei arquivos em .parquet a partir destes .json. Salvei estes resultados na minha [refined](https://challenger-uol.s3.amazonaws.com/trusted/). 
+Para atualizar o csv, foram usados os scripts presentes na pasta [etapa-4](etapa-4/). O arquivo [1FiltrarDados.py](Desafio/etapa-4/1FiltrarDados.py) filtra os dados desejados, que são os filmes de animação, do arquivo movies.csv, o script [2RemoverColuna.py](Desafio/etapa-4/2RemoverColuna.py) remove as colunas que não serão usadas no restante do processo, enquanto o script [3RemoveLinhas.py](Desafio/etapa-4/3RemoveLinhas.py) remove as linhas duplicadas presentes no arquivo. Após isto, o script [4insereProdutora](Desafio/etapa-4/4insereProdutora) insere um '|' no final de cada linha, para que eu abra o arquivo e crie uma nova coluna 'produtora'. Por fim, o script [5insereDadosGerais](Desafio/etapa-4/5insereDadosGerais) insere os dados buscados pela API no nosso arquivo csv. Após renomear o arquivo e apagar os arquivos intermediários, o resultado final é o arquivo [animation_movies.csv](Desafio/etapa-4/animation_movies.csv), que após ser convertido para [animation_movies.xlsx](Desafio/etapa-4/animation_movies.xlsx) foi utilizado no desenvolvimento do [Dashboard](Desafio/etapa-4/Dashboard.pdf) no AWS Quicksight.
