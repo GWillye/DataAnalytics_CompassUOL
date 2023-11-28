@@ -241,7 +241,7 @@ Neste Sprint, aprendemos formas de como utilizar a Programação Funcional, um p
 ### Sprint 4 - Certificados
 
 ![Certificado do curso de Python3](Sprint_4/certificados/EstDescPy.jpg)
-![Certificado do curso de Python3](Sprint_4/certificados/Docker.jpg)
+![Certificado do curso de Docker](Sprint_4/certificados/Docker.jpg)
 
 ## Sprint 5 - Fundamentos de Computação em Nuvem (AWS)
 
@@ -485,12 +485,12 @@ Não tivemos exercícios para desenvolver nesta Sprint.
 
 ### Sprint 10 - Evidências
 
-Todas as evidências do desenvolvimento do Desafio nesta etapa estão presentes na pasta [Desafio/etapa-4/](../Desafio/etapa-4/).
+Todas as evidências do desenvolvimento do Desafio nesta etapa estão presentes na pasta [Desafio/etapa-4/](/Desafio/etapa-4/). Os slides da Apresentação do trabalho está disponível em [aqui](/Desafio/etapa-4/Apresentação.pdf).
 
-### Sprint 10 - Certificados
+## Sprint 10 - Certificados
 
-![Quicksight](certificados/Quicksight.png)
-![Segurança em Aplicações Web](certificados/SegApliWeb.png)
+![Quicksight](Sprint_10/certificados/Quicksight.png)
+![Segurança em Aplicações Web](Sprint_10/certificados/SegApliWeb.png)
 
 ## Desafio
 
@@ -548,3 +548,4 @@ No dia 02 de novembro de 2023, assisti o vídeo [O Fim da Disney](https://www.yo
 
 Após definir as perguntas e questionamentos, foi iniciado a coleta de dados necessários para o desenvolvimento do Dashboard. O primeiro passo foi criar uma coluna "produtora", para receber as informações das produtoras de filmes e séries de comédia e animação. Após isso, tratar estes dados e prepará-los para a análise. Para fazer isso, conectei a API do TMDB com o arquivo [movies.csv](https://challenger-uol.s3.amazonaws.com/raw/movies.csv), presente na minha [raw](https://challenger-uol.s3.amazonaws.com/raw/) mandei criar uma nova coluna chamada 'produtora' e inserir os dados das produtoras de todos os filmes e salvei o arquivo em minha [trusted](https://challenger-uol.s3.amazonaws.com/trusted/), junto dos arquivos atualizados dos meus Jsons. Após isto, excluí as informações desnecessárias do csv e mandei atualizar meus arquivos Json com os dados dos filmes de animação e criei arquivos em .parquet a partir destes .json. Salvei estes resultados na minha [refined](https://challenger-uol.s3.amazonaws.com/trusted/). 
 Para atualizar o csv, foram usados os scripts presentes na pasta [etapa-4](etapa-4/). O arquivo [1FiltrarDados.py](Desafio/etapa-4/1FiltrarDados.py) filtra os dados desejados, que são os filmes de animação, do arquivo movies.csv, o script [2RemoverColuna.py](Desafio/etapa-4/2RemoverColuna.py) remove as colunas que não serão usadas no restante do processo, enquanto o script [3RemoveLinhas.py](Desafio/etapa-4/3RemoveLinhas.py) remove as linhas duplicadas presentes no arquivo. Após isto, o script [4insereProdutora](Desafio/etapa-4/4insereProdutora) cria uma nova coluna 'produtora'. Por fim, o script [5insereDadosGerais](Desafio/etapa-4/5insereDadosGerais) insere os dados buscados pela API no nosso arquivo csv. Após renomear o arquivo e apagar os arquivos intermediários, o resultado final é o arquivo [animation_movies.csv](Desafio/etapa-4/animation_movies.csv), que após ser convertido para [animation_movies.xlsx](Desafio/etapa-4/animation_movies.xlsx) foi utilizado no desenvolvimento do [Dashboard](Desafio/etapa-4/Dashboard.pdf) no AWS Quicksight.
+A [apresentação de slides](Desafio/etapa-4/Apresentação.pdf) utilizada no [vídeo](Desafio/etapa-4/Vídeo.mp4) também estão disponíveis no Repositório.

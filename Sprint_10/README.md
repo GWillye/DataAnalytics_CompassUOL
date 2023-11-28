@@ -8,12 +8,12 @@ Não tivemos exercícios para desenvolver nesta Sprint.
 
 ## Sprint 10 - Evidências
 
-Todas as evidências do desenvolvimento do Desafio nesta etapa estão presentes na pasta [Desafio/etapa-4/](../Desafio/etapa-4/).
+Todas as evidências do desenvolvimento do Desafio nesta etapa estão presentes na pasta [Desafio/etapa-4/](../Desafio/etapa-4/). Os slides da Apresentação do trabalho está disponível em [aqui](../Desafio/etapa-4/Apresentação.pdf).
 
 ## Sprint 10 - Certificados
 
-![Quicksight](certificados/Quicksight.jpg)
-![Segurança em Aplicações Web](certificados/SegApliWeb.jpg)
+![Quicksight](certificados/Quicksight.png)
+![Segurança em Aplicações Web](certificados/SegApliWeb.png)
 
 ## D&A - AWS [Compass.UOL](https://compass.uol/pt/home/?utm_source=google-ads&utm_medium=ppc&utm_campaign=compasso-uol-institucional&utm_term=compass+uol): Sobre mim
 
