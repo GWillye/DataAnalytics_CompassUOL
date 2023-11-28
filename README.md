@@ -489,8 +489,8 @@ Todas as evidências do desenvolvimento do Desafio nesta etapa estão presentes 
 
 ## Sprint 10 - Certificados
 
-![Quicksight](Sprint_10/certificados/Quicksight.png)
-![Segurança em Aplicações Web](Sprint_10/certificados/SegApliWeb.png)
+![Quicksight](Sprint_10/certificados/Quicksight.jpg)
+![Segurança em Aplicações Web](Sprint_10/certificados/SegApliWeb.jpg)
 
 ## Desafio
 
