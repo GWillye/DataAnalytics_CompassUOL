@@ -275,8 +275,8 @@ local_folder = 'JSON/'
 
 s3 = boto3.client(
     's3',
-    aws_access_key_id='AKIA3TV6GR4KGACAWIGC',
-    aws_secret_access_key='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',
+    aws_access_key_id='',
+    aws_secret_access_key='',
     region_name='us-east-1'
 )
 
