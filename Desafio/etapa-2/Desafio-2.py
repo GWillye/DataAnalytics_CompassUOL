@@ -267,8 +267,8 @@ def processar_pasta_json(pasta):
 if __name__ == "__main__":
     processar_pasta_json(pasta_json)
 
-os.environ["AWS_ACCESS_KEY_ID"] = 'AKIA3TV6GR4KGACAWIGC'
-os.environ["AWS_SECRET_ACCESS_KEY"] = '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'
+os.environ["AWS_ACCESS_KEY_ID"] = ''
+os.environ["AWS_SECRET_ACCESS_KEY"] = ''
 os.environ["AWS_DEFAULT_REGION"] = 'us-east-1'
 bucket_name = 'compass-uol-desafio'
 local_folder = 'JSON/' 
