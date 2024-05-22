@@ -3,7 +3,7 @@ import json
 import requests
 
 def get_tmdb_data(movie_id):
-    api_key = 'f905807b2900febaccfb008c16388168'
+    api_key = 'inserir_sua_api_key'
     url = f'https://api.themoviedb.org/3/movie/{movie_id}?api_key={api_key}&language=pt-BR'
     response = requests.get(url)
     if response.status_code == 200:
